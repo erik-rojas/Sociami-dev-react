@@ -1,0 +1,23 @@
+.popup-latest-task {
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: black;
+    border: 2px solid grey; 
+}
+
+.popup-latest-task {
+    padding: 40px;
+    margin: 0 auto;
+    background-color: black;
+    height: 100%;
+}
+
+.popup-latest-task img {
+    max-width: 50%;
+}
+
+.popup-latest-task .glyphicon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

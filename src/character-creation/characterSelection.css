@@ -1,0 +1,328 @@
+#character-info {
+    width: 80%;
+    margin: auto;
+}
+@media only screen and (max-width : 768px) {
+    .character-info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+#character-selection-container {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+@media only screen and (max-width : 768px) {
+    #character-selection-container {
+        padding: 0px !important;
+    }
+}
+
+
+#character-selection-header {
+    font-size: 24px;
+    font-family: "Fjalla One";
+    color: rgb( 221, 48, 58 );
+    margin-top: 15px;
+}
+
+#character-name {
+    font-size: 48px;
+    font-family: "Fjalla One";
+    color: rgb( 234, 59, 22 );
+}
+
+#character-description {
+    font-family: "Myriad Pro";
+    font-size: 18px;
+}
+
+#character-selection-container-inner {
+    height: 100%;
+    overflow-y: scroll;
+}
+#character-selection-container-inner .container-fluid {
+    overflow: hidden;
+}
+#character-selection-container-inner .box-head {
+    padding-bottom: 18px;
+}
+
+.character-center {
+    width: 604px;
+    float:left;
+    margin-left: 20px;
+    position: relative;
+}
+.character-left, .character-right {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 16.66666667%;
+    float: left;
+}
+.character-piece {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+}
+@media only screen and (max-width : 1089px) {
+    .character-center {
+        width: 100%; 
+        margin-left: 0px;    
+        z-index: 1;   
+    }
+    .character-left, .character-right {
+        width: 100%;
+        float: none;
+    }
+    .character-piece {
+        width: 33.33333333%;
+    }
+
+}
+@media only screen and (max-width : 767px) {    
+    .character-piece {
+        width: 100%;
+    }
+}
+
+.character-info {
+    width: 100%;
+}
+
+.character-selection-button-container {}
+
+/* .character-selection-button {
+    padding: 5px;
+    cursor: pointer;
+    background: #2fa7d2;
+    border-radius: 50%;
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    opacity: 0.2;
+    position: relative;
+    overflow: hidden;
+    border: 0px solid #ffffff;
+}
+
+.character-selection-button.character-selected {
+    background: #f26c30;
+    opacity: 1;
+    border: 6px solid #ffca28;
+} */
+
+/* .character-selection-button.character-order-0 img {
+    margin-left: -97px;
+    margin-top: -35px;
+}
+.character-selection-button.character-order-1 img {
+    margin-left: -39px;
+    margin-top: -38px;
+}
+.character-selection-button.character-order-2 img {
+    margin-left: -168px;
+    margin-top: -61px
+}
+.character-selection-button.character-order-3 img {
+    margin-left: -61px;
+    margin-top: -54px;
+}
+.character-selection-button.character-order-4 img {
+    margin-left: -84px;
+    margin-top: -46px;
+}
+.character-selection-button.character-order-5 img {
+    margin-left: -99px;
+    margin-top: -32px
+} */
+
+#character-selection-image-big img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 30%;
+    height: auto;
+    opacity: 0.1;
+}
+
+
+/* #character-skills {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#character-select {
+    font-size: 25px;
+    font-family: "Fjalla One";
+    color: rgb( 255, 255, 255 ); 
+}
+
+.character-skill {
+    background-color: rgb( 47, 167, 210 );
+    font-size: 13px;
+    font-family: "Comfortaa";
+    color: white;
+    padding: 14px 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: default;
+    margin-top: 10px;
+} */
+
+.character-creation-progressbar-container {
+    padding: 15px 0px 15px 0px;
+}
+
+.character-creation-progressbar-container.character-selection-progressbar {
+    position: relative;
+    /* bottom: 38px; */
+    padding: 25px 0px 0px;
+    height: 20px;
+}
+
+@media only screen and (max-width : 1089px) {
+    .character-creation-progressbar-container.character-selection-progressbar {
+        /* margin-top: 20px; */
+        height: 40px;
+        bottom: 0px;
+    }
+}
+.character-column{
+    background: #e7403f url(https://sociamibucket.s3.amazonaws.com/assets/new_ui_color_scheme/img/bg-category.jpg) no-repeat bottom right;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.character-row{
+    margin-right: 5%;
+    margin-left: 5%;
+    height: auto;
+    display: flex;
+}
+.character-text{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 40px;
+    font-family: 'Berlin-Sans-FB-Regular', sans-serif;
+    opacity: .7;
+}
+.character-box{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.choose-house-column{
+    display: flex;
+    align-items: center;
+}
+.choose-house-header{
+    text-align: center;
+    color: 	#BBBBBB;
+}
+.choose-house-desc{
+    text-align: center;
+    color: 	#BBBBBB;
+}
+.choose-house-text{
+    width: 100%;
+}
+/* .select-character-button{
+    text-align: center;
+    zoom: .7;
+} */
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+@media all and (max-width: 768px) {
+    /* .character-selection-button{
+        width:50px;
+        height:50px;
+    } */
+    .character-creation-header{
+        padding: 10px 0px 10px 0px !important;
+    }
+    .progress-container{
+        text-align: center;
+        margin-top: -15px;
+    }
+    .character-box{
+        padding: 0 !important;
+        margin: 0 auto !important;
+    }
+    .character-text {
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        height:auto !important;
+    }
+    /* .character-header{
+        padding: 15px 0px 10px 0px !important;
+        zoom: .9;
+        -moz-transform: scale(0.9)
+    } */
+    #character-name{
+        font-size: 32px;
+        font-family: "Fjalla One";
+        color: rgb( 234, 59, 22 );
+        padding: 80px 0px 0px 0px !important;
+    }
+    #character-skills {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    #character-select{
+        zoom:.7;
+        -moz-transform: scale(0.7)
+    }
+    .character-skill{
+        zoom: .8;
+        -moz-transform: scale(0.8)
+    }
+    .character-selection-button.character-order-0 img {
+        margin-left: -97px;
+        margin-top: -35px;
+    }
+    .character-selection-button.character-order-1 img {
+        margin-left: -39px;
+        margin-top: -38px;
+    }
+    .character-selection-button.character-order-2 img {
+        margin-left: -168px;
+        margin-top: -61px
+    }
+    .character-selection-button.character-order-3 img {
+        margin-left: -61px;
+        margin-top: -54px;
+    }
+    .character-selection-button.character-order-4 img {
+        margin-left: -84px;
+        margin-top: -46px;
+    }
+    .character-selection-button.character-order-5 img {
+        margin-left: -99px;
+        margin-top: -32px
+    }
+    #character-description {
+        font-family: "Myriad Pro";
+        font-size: 14px;
+    }
+}

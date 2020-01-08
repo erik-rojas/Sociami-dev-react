@@ -1,0 +1,120 @@
+#projectManager {
+  border-radius: 3px;
+  background-color: #e7403f;
+  width: 642px;
+  height: 450px;
+}
+
+#project-manager-projects-bg {
+  padding-top: 40px;
+  width: 100%;
+  height: 510px;
+  background-color: #e7403f;
+  color: rgb(74,191,234);
+  position:relative;
+}
+
+#project-manager-projects-container {
+  width: 90%;
+  margin: 0 auto;
+  background: #e7403f;
+}
+
+#project-manager-projects-bg ul {
+  list-style: none;
+}
+
+#project-manager-projects-bg #project-manager-add-project-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 60px;
+  top: initial;
+}
+
+#project-scanner-text {
+  font-size: 14px;
+  font-family: "Comfortaa";
+  color: rgb( 255, 255, 255 );
+  line-height: 2.143;
+  text-align: center;
+}
+
+#project-manager-project-scanner-container {
+  width: 80%;
+  margin: 0 auto;
+  background: #e7403f;
+}
+
+.projects-list-item {
+  margin-bottom: 40px;
+}
+
+.projects-list-item img {
+  float: left;
+  margin-right: 30px;
+}
+
+.projects-list-item #project-text #title {
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: rgb( 129, 165, 233 );
+}
+
+.projects-list-item #icon-share {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+#projects-list-container {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#project-scanner-list-projects-container {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+#project-scanner-list-projects {
+  list-style: none;
+  margin-top: 20px;
+  width: 90%;
+}
+  
+#project-scanner-list-projects li {
+  display: block;
+  margin-bottom: 20px;
+}
+  
+#project-scanner-list-projects li:before {
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  content: "\e257";
+  font-family: 'Glyphicons Halflings';
+  float: left;
+  font-size: 24px;
+  margin-left: -25px;
+  margin-top: -3px;
+  color: white;
+}
+  
+#project-scanner-list-projects li a {
+  font-size: 18px;
+  color: white;
+}
+
+#project-scanner-category-switch {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#project-scanner-category-switch a {
+  color: white;
+  font-size: 18px;
+  font-family: "Comfortaa";
+  text-decoration: none;
+}
+
+#project-scanner-category-switch a:hover {
+  text-decoration: underline;
+}

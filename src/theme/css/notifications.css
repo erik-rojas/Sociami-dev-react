@@ -1,0 +1,306 @@
+div#notificationTile {
+  position: absolute;
+  width: 332px;
+  right: -18%;
+  top: 60px;
+  border: none;
+  height: 400px;
+  padding: 0 10px;
+  z-index: 200;
+}
+
+div#companyDropdown {
+  position: absolute;
+  width: 250px;
+  right: -1%;
+  top: 61px;
+  border: none;
+  height: 400px;
+  padding: 0 10px;
+  z-index: 200;
+}
+
+.list-group {
+	position: relative;
+	background: #88b7d5;
+  border: 1px solid #ffc700;
+  box-shadow: 0px 0px 10px 3px rgba(184,161,44,0.7);
+}
+
+.list-group::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  top: 0px;
+  right: 96px;
+  box-sizing: border-box;
+  border: 10px solid black;
+  border-color: transparent transparent #ffc700 #ffc700;
+  transform-origin: 0 0;
+  transform: rotate(135deg);
+  box-shadow: 0px 0px 15px 5px rgba(184,161,44,0.76);
+  z-index: -1;
+}
+
+.list-group::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  top: 2px;
+  right: 96px;
+  box-sizing: border-box;
+  border: 10px solid black;
+  border-color: transparent transparent #0a0a0a #0a0a0a;
+  transform-origin: 0 0;
+  transform: rotate(135deg);
+  z-index: 200;
+}
+
+.notifyTitle {
+  position: relative;
+  display: block;
+  color: #ffc700;
+  font-size: 1.3em;
+  background-color: #0a0a0a;
+  border: none;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+
+.notifyTitle ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.notifyTitle .company-name {
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 5px;
+  color: white !important;
+  font-size: 11pt !important;
+  top:unset !important;
+}
+
+.notifyMeta {
+  margin-top: 5px;
+}
+
+.notify-actions {
+  float: right;
+}
+
+.notify-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.notify-hide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.notifyIcon {
+  border: 1px solid #ffc700;
+  border-radius: 100px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.notifyIcon > img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.notify-date {
+  color: #6f6f6f;
+}
+
+.notify-title {
+  color: #dadada;
+}
+
+.notify-name {
+  color: #dadada;
+}
+
+.notify-checked {
+  float: right;
+  background: #dd303a;
+  padding: 0px 10px;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 8px;
+  box-shadow: 0px 4px 10px 0px rgba(221, 48, 58, 0.33);
+}
+
+.fa-profile-image {
+  color: rgb(1, 111, 176);
+}
+
+span.notification-item.list-group-item {
+  border: 1px solid #444444;
+  border-radius: 0;
+  background-color: #0a0a0a;
+  padding: 5px 15px !important;
+}
+
+span.notification-item.list-group-item:hover {
+  background-color: #1e1e1e;
+}
+
+#notificationSection {
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.26);
+}
+
+div#notificationSection a:hover {
+  text-decoration: none;
+}
+
+span.notification-item.list-group-item {
+  transition: all 0.2s ease-in-out;
+}
+
+a.notify-btn-notification-check {
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 150px;
+  padding: 6px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+a.notify-btn-notification-check:hover {
+  color: #cb00dc;
+}
+
+button.notify-btn-notification-reschedule {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+button.notify-btn-notification-reschedule:hover {
+  color: #cb00dc;
+}
+
+.notify-hide {
+  display: none;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+span.notification-item.list-group-item:hover .notify-hide {
+  display: flex;
+}
+
+.notify-checked-true {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 90px;
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  height: 28px;
+  color: #e74b49;
+  font-size: 1.3em;
+}
+
+.more-notifications {
+  background: #0a0a0a;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.more-notifications > a {
+  color: #fff;
+}
+
+.more-notifications > a:hover {
+  color: #cb00dc;
+}
+
+.notifications-loading {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+div#companyDropdown .notifyTitle.list-group-item ul li{
+  padding: unset;
+}
+
+@media screen and (max-width: 750px) {
+  div#notificationTile {
+    top: 40px;
+  }
+  .list-group::after{
+    right: 10px;
+    border: 6px solid #000;
+    border-color: transparent transparent #ffc700 #ffc700;
+  }
+  .list-group:before {
+    right: 10px;
+    border: 6px solid #000;
+    border-color: transparent transparent #0a0a0a #0a0a0a;
+  }
+}
+
+@media (max-width: 480px) {
+  div#notificationTile {
+    position: absolute;
+    right: calc(-28.7vw + 50%);
+    top: 40px;
+    z-index: 100;
+    width: 100vw;
+    line-height: 1;
+    background: #fff;
+    padding: unset;
+  }
+
+  .notifyTitle div {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .list-group::after{
+    right: 37px;
+    border: 6px solid #000;
+    border-color: transparent transparent #ffc700 #ffc700;
+  }
+  .list-group:before {
+    right: 37px;
+    border: 6px solid #000;
+    border-color: transparent transparent #0a0a0a #0a0a0a;
+  }
+
+  div#companyDropdown {
+    position: absolute;
+    right: calc(-28.7vw + 50%);
+    top: 40px;
+    z-index: 100;
+    width: 100vw;
+    line-height: 1;
+    background: #fff;
+  }
+  div#companyDropdown .notifyTitle.list-group-item{
+    padding: 10px 15px;
+  }
+
+  div#companyDropdown .list-group::after{
+    right: 115px;
+    border: 6px solid #000;
+    border-color: transparent transparent #ffc700 #ffc700;
+  }
+  div#companyDropdown .list-group:before {
+    right: 115px;
+    border: 6px solid #000;
+    border-color: transparent transparent #0a0a0a #0a0a0a;
+  }
+}

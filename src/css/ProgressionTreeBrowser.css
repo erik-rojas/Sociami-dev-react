@@ -1,0 +1,89 @@
+.skill-tab{
+    width: calc(100%/3) ;
+    text-align: center;
+    color: white;
+}
+.tree-skills{
+    box-shadow:0 0 3px rgb(0,0,0,0.5);
+    font-family: 'FjallaOne-Regular' !important;
+    font-size:15px;
+}
+.masonry-grid-item{
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    background-color: #FCE0DF;
+    border: 1px solid white;
+    text-align: center;
+    color: white !important;
+    width: 150px;
+}
+.skill-item{
+    text-decoration: none;
+    color: black;
+}
+.nav-tabs>li>a.skill-tag {
+    color: white !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.tree-skills>.skill-tab-content {
+    height: auto !important;
+    padding: 0px !important;
+    min-height: 400px;
+}
+.nav-tabs>li.active>a.essential-skill, .nav-tabs>li.active>a.essential-skill:focus, .nav-tabs>li.active>a.essential-skill:hover {
+    background-color: #DC2F41 !important;
+    border-bottom: solid 2px #286090 !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color:white !important;
+}
+.nav-tabs>li.active>a.complimentary-skill, .nav-tabs>li.active>a.complimentary-skill:focus, .nav-tabs>li.active>a.complimentary-skill:hover {
+    background-color: #20A5D0 !important;
+    border-bottom: solid 2px #286090 !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color: white !important;
+}
+.nav-tabs>li.active>a.related-skill, .nav-tabs>li.active>a.related-skill:focus, .nav-tabs>li.active>a.related-skill:hover {
+    background-color: #F48543 !important;
+    border-bottom: solid 2px #286090 !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color: white !important;
+}
+/* not active */
+.nav-tabs>li>a.essential-skill:focus, .nav-tabs>li>a.essential-skill:hover {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color:black !important;
+}
+.nav-tabs>li>a.complimentary-skill:focus, .nav-tabs>li>a.complimentary-skill:hover {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color: black !important;
+}
+.nav-tabs>li>a.related-skill:focus, .nav-tabs>li>a.related-skill:hover {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    color: black !important;
+}
+/*  */
+.masonry-grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav-tabs>li>a.skill-tag{
+    margin-right: 0px !important;
+}
+.no-padding{
+    padding: 0 !important;
+}

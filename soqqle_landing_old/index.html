@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://piksel.co/themes/titanium/default.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>The easiest way to do your tasks : Soqqle</title>
+        
+        <meta name="viewport" content="width=650; maximum-scale=1.0; initial-scale=0.5;">
+        <link href="css/css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="css/style.css">
+        <script src="css/jquery.min.js"></script>
+        <script type="text/javascript" src="css/jquery.VideoBg.js"></script>
+        <script src="css/main.js"></script> 
+    </head>
+    <body>
+
+        <div id="medium-feed" class="medium-feed">
+        </div>
+       
+        <div class="videoDivider" style="display: none;"></div> 
+        <div class="main" style="margin-top: 40px;">
+            <div class="logo"><img src="css/soqqle-logo.png"></div>
+            <div class="content anim">
+                <div class="line">
+                    <div>
+                        <div class="text">COMING SOON</div>
+                    </div>
+                </div>
+                <div class="motto">The easiest way to learn and collaborate with your friends. The only Blockchain powered smart social network that propels you to the forefront of humankind.</div>
+                <div class="line2"></div>
+            </div>
+            <div class="form anim">
+                <form name="joinus" id="form-subscribe">
+                    <div class="formsent">Thank you for joining beta testing! We'll inform you for the exclusive beta launch.<span>You can follow us on social media</span><div class="arrow"><img src="css/arrow02.png"></div></div>
+                    <div class="formvalidate" id="form-validate-name">This field is required<div class="arrow"><img src="css/arrow01.png"></div></div>
+                    <input id="name" class="name" placeholder="Enter your name here">
+                    <div class="formvalidate" id="form-validate-mail">Please enter the correct email!<div class="arrow"><img src="css/arrow01.png"></div></div>
+                    <input id="email" class="mail" placeholder="Enter your email here">
+                    <input id="groupId" type="hidden" value="8797324">
+                    <div class="joinusButton">Join us</div>
+                </form>
+            </div>
+            <div class="social anim" style="width: 300px;">
+                <ul>
+                    <li><a href="https://twitter.com/soqqle"><img src="css/social01.png"></a></li>
+                    <li><a href="https://facebook.com/soqqle"><img src="css/social02.png"></a></li>
+                    <li><a href="https://www.linkedin.com/company/soqqle/"><img src="css/social03.png"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCeDx4QONGNrqGQsziP1-rrg"><img src="css/social04.png"></a></li>
+                    <li><a href="https://instagram.com/soqqle.official"><img src="css/social06.gif"></a></li>
+                </ul>
+            </div>
+
+            
+         
+        </div> 
+
+
+    
+
+ </body>
+
+
+
+
+
+
+<script type="text/javascript">
+  function getRSSFeed(feed){
+    // Build the YQL query
+    var qryRSS = 'select * from rss where url='+'"'+feed+'"';
+    // Initiate the YQL query
+    $.getJSON("http://query.yahooapis.com/v1/public/yql",
+      {
+        // These are the settings for your API call
+        q: qryRSS,
+        format: "json"
+      },
+
+      // Take the data you got from the YQL server and output it to the screen.  The variable "data" holds the JSON you got back from the YQL server.
+      function(data) {
+        // Just bother with the last 4 entries within the JSON feed
+        for (i=0; i<4; i++)
+          {
+          // Output a link, using the link attribute and the title attribute
+          $('#medium-feed').append('<a href="'+data.query.results.item[i].link+'">'+data.query.results.item[i].title+'</a><br />');
+          // Output the description, using the description attribute. 
+          $('#medium-feed').append(data.query.results.item[i].description);
+
+        }
+        $('#medium-feed a').attr('target', '_blank');
+    });
+  };
+
+  // Test it with Steinbring.net's RSS Feed
+  getRSSFeed('https://medium.com/feed/soqqle/?truncated=true');
+</script>
+
+ </html>

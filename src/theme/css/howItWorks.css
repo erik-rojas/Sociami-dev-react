@@ -1,0 +1,9 @@
+.howItWorksPage .progress{
+    border: 2px solid black;
+    background: transparent;
+}
+
+.howItWorksPage .progress>.progress-bar {
+    background-color: #222222;
+    background-image: initial;
+}

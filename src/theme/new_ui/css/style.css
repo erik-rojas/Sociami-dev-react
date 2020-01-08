@@ -1,0 +1,1163 @@
+@font-face {
+    font-family: 'Berlin-Sans-FB-Regular';
+    src: url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlin-Sans-FB-Regular.eot');
+    src: local('☺'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlin-Sans-FB-Regular.woff') format('woff'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlin-Sans-FB-Regular.ttf') format('truetype'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlin-Sans-FB-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlin-Sans-Light';
+    src: url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlinsans-Light.eot');
+    src: local('☺'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlinsans-Light.woff') format('woff'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlinsans-Light.ttf') format('truetype'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Berlinsans-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Franklin-Gothic-Demi-Regular';
+    src: url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Franklin-Gothic-Demi-Regular.eot');
+    src: local('☺'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Franklin-Gothic-Demi-Regular.woff') format('woff'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Franklin-Gothic-Demi-Regular.ttf') format('truetype'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Franklin-Gothic-Demi-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FjallaOne-Regular';
+    src: url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/FjallaOne-Regular.eot');
+    src: local('☺'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/FjallaOne-Regular.woff') format('woff'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/FjallaOne-Regular.ttf') format('truetype'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/FjallaOne-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titling-Gothic-Bold';
+    src: url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Titling-Gothic-Bold.eot');
+    src: local('☺'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Titling-Gothic-Bold.woff') format('woff'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Titling-Gothic-Bold.ttf') format('truetype'),
+    url('https://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/fonts/Titling-Gothic-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Berlin-Sans-FB-Regular', sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    color: #303030;
+}
+
+.session-header-landing {
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/bg-header.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 1184px;
+    height: 100%;
+}
+
+.btn-base-landing {
+    display: inline-block;
+    height: 55px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.btn-base:hover,
+.btn-base:focus,
+.btn-base:active{
+    outline: none;
+}
+
+.btn-yellow-landing{
+    width: 215px;
+    color: #f05043;
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/button-yellow.png") no-repeat 0px 0px;
+}
+.btn-yellow-landing:hover,
+.btn-yellow-landing:focus,
+.btn-yellow-landing:active{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/button-yellow.png") no-repeat 0px -55px;
+    text-decoration: none;
+    color: #f05043;
+}
+
+.btn-red-landing{
+    font-size: 16px;
+    width: 275px;
+    color: #ffffff;
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/button-red.png") no-repeat 0px 0px;
+	text-indent: 60px;
+}
+.btn-red-landing:hover,
+.btn-red-landing:focus,
+.btn-red-landing:active{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/button-red.png") no-repeat 0px -60px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.font-small{
+    font-size: 14px;
+    font-family: 'Berlin-Sans-Light';
+}
+
+.only-line{
+    line-height: 18px;
+    padding: 5px 0px 5px 55px;
+    position: relative;
+    top: 8px;
+}
+
+
+.logo{
+    margin: 0px;
+    padding: 15px 30px;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.btn-login-landing{
+    margin: 15px 0px;
+}
+
+.box-intro{
+    text-align: center;
+    padding: 20px;
+}
+
+#intro-video {
+    border: none;
+}
+
+#landing-header-links #link-create-acc {
+    color: black;
+    text-decoration: underline;
+}
+
+
+.heading-1{
+    /*font-family: 'Franklin-Gothic-Demi-Regular';*/
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ce2735;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: 'Titling-Gothic-Bold', sans-serif;
+}
+
+.heading-4{
+    font-family: 'Franklin-Gothic-Demi-Regular';
+    font-size: 22px;
+}
+
+.text-red{
+    color: #f05043;
+}
+
+.video{
+    padding-top: 20px;
+}
+
+
+.box-problem{
+    padding: 50px 0px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.icon-format{
+    color: #fddfd4;
+    /*font-family: "Times New Roman", sans-serif;*/
+    font-family: 'FjallaOne-Regular', sans-serif;
+    font-size: 150px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 35px;
+}
+
+.text-heading{
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    padding-top: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+.session-mid{
+    background: #f05043 no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.box-head{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.heading-border {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+}
+.heading-border span:before,
+.heading-border span:after {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #e17726;
+    top: 18px;
+    width: 150px;
+}
+.heading-border span:before {
+    right: 100%;
+    margin-right: 80px;
+}
+.heading-border span:after {
+    left: 100%;
+    margin-left: 80px;
+}
+
+.heading-border:before,
+.heading-border:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 67px;
+}
+.heading-border:before {
+    right: 100%;
+    margin-right: -5px;
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/arrow-prev.png") no-repeat;
+}
+.heading-border:after {
+    left: 100%;
+    margin-left: 5px;
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/arrow-next.png") no-repeat;
+}
+
+/*.seed-left{*/
+    /*background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/seed-left.png") no-repeat;*/
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    /*height: 400px;*/
+/*}*/
+
+.box-seed{
+    background: #e63c33;
+    width: 100%;
+    height: 100%;
+    min-height: 375px;
+    position: relative;
+    text-align: center;
+    /*-webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);*/
+    /*-moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);*/
+    /*box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);*/
+    box-sizing: border-box;
+    padding: 50px 15px;
+    color: #ffffff;
+    margin: 15px auto;
+}
+.seed-left{
+    -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.seed-right{
+    -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.seed-mid{
+    -webkit-clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+    clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+}
+
+.block-capital{
+    width: 68%;
+    margin: 0px auto;
+}
+
+.block-capital h4{
+    border-bottom: 3px solid #dd3128;
+    padding-bottom: 5px;
+    font-family: 'Berlin-Sans-Light', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    font-size: 18px;
+    text-align: left;
+}
+
+.block-capital p{
+    line-height: 24px;
+    text-align: justify;
+}
+
+.session2{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/bg2.png") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 800px;
+    height: 100%;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.block-feature{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/feature.png") no-repeat top center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    min-height: 600px;
+    height: 100%;
+}
+
+.head-how{
+    text-align: center;
+    padding: 220px 0px;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    line-height: 50px;
+    width: 120px;
+    margin: 0px auto;
+}
+
+
+/*.box-feature{*/
+    /*position: relative;*/
+/*}*/
+
+.box-feature .item-feature{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f6ba83;
+    position: relative;
+    text-align: justify;
+}
+
+.session-mid2{
+    background: #14aad5 url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/bg3.png") no-repeat top center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    min-height: 650px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.block-token{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/feature2.png") no-repeat top center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    -o-background-size: 100%;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+}
+
+.heading-token{
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    font-size: 44px;
+    color: rgba(255, 255, 255, 0.2);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.box-token{
+
+}
+
+.box-token h3{
+    color: #faf5b0;
+}
+
+.box-token p{
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.head-token {
+    text-align: center;
+    padding: 220px 0px;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    line-height: 50px;
+    width: 160px;
+    margin: 0px auto;
+}
+
+.block-experience{
+    padding-top: 50px;
+}
+
+.bg-blue{
+    background: #4788c8;
+}
+
+.bg-white{
+    background: #ffffff;
+}
+
+.text-intro-experience{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+}
+
+.box-experience{
+    padding: 20px 30px;
+    min-height: 300px;
+}
+
+.box-experience h3{
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+}
+
+.box-experience p{
+    font-size: 18px;
+}
+
+.bg-blue h3{
+    color: #ffce06;
+}
+
+.bg-blue p{
+    color: #ffffff;
+}
+
+.bg-white h3{
+    color: #f68b1f;
+}
+
+.bg-white p{
+    color: #3ca8df;
+}
+
+
+.session-mid3{
+    background: #3ac5ec;
+    height: 100%;
+    min-height: 1500px;
+}
+
+.heading-characters{
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 65%, 25% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 25% 100%);
+    width: 100%;
+    height: 100px;
+    background: #0a6b85;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.item-contact{
+    position: relative;
+    min-height: 365px;
+}
+
+.block-item{
+    padding-top: 30px;
+}
+
+.text-item{
+    width: 100%;
+    min-height: 250px;
+    background: #2fa7d2;
+    /*font-family: 'FjallaOne-Regular', sans-serif;*/
+    /*font-family: "Times New Roman", sans-serif;*/
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.box-contact1{
+
+}
+
+
+.box-overlay{
+    width: 100%;
+    min-height: 250px;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    color: #ffffff;
+    text-align: left;
+    padding: 100px 150px 100px 50px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 11% 82%);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 11% 82%);
+    position: absolute;
+    top: 210px;
+    right: -150px;
+}
+
+.overlay-red{
+    background: #f05043;
+}
+
+.overlay-purple{
+    background: #7b59a5;
+}
+
+.overlay-yellow{
+    background: #b8d551;
+}
+
+@media all and (min-width: 991px){
+    .box-contact1{
+        -webkit-clip-path: polygon(0 0, 100% 31%, 95% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 31%, 95% 100%, 0 100%);
+        padding: 100px 150px 100px 50px;
+    }
+    .box-contact2{
+        -webkit-clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 73%);
+        clip-path: polygon(11% 0, 100% 0, 100% 100%, 0 73%);
+        padding: 50px 50px 100px 150px;
+    }
+
+    .text-item span{
+        max-width: 400px;
+        display: block;
+    }
+
+    .box-contact1.text-item span{
+        float: right;
+    }
+
+}
+
+.avatar-p1{
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+}
+
+.avatar-p2{
+    position: absolute;
+    z-index: 3;
+    right: -50px;
+    top: -80px;
+}
+
+.img-avatar{
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn-name{
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    font-size: 22px;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+}
+
+.btn-contact-red1{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-red-landing-p1.png") no-repeat;
+    right: 0px;
+    padding: 5px 30px 5px 0px;
+    text-align: right;
+    left: -150px;
+    margin-top: -160px;
+}
+
+.btn-contact-red2{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-red-landing-p2.png") no-repeat;
+    right: 0px;
+    padding: 5px 0px 5px 30px;
+    text-align: left;
+    right: -150px;
+    margin-top: -70px;
+}
+
+.btn-contact-pink1{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-pink-p1.png") no-repeat;
+    right: 0px;
+    padding: 5px 30px 5px 0px;
+    text-align: right;
+    left: -150px;
+    margin-top: -70px;
+}
+
+.btn-contact-pink2{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-pink-p2.png") no-repeat;
+    right: 0px;
+    padding: 5px 0px 5px 30px;
+    text-align: left;
+    right: -150px;
+    margin-top: -70px;
+}
+
+.btn-contact-green1{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-green-p1.png") no-repeat;
+    right: 0px;
+    padding: 5px 30px 5px 0px;
+    text-align: right;
+    left: -150px;
+    margin-top: -70px;
+}
+
+.btn-contact-green2{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/btn-green-p2.png") no-repeat;
+    right: 0px;
+    padding: 5px 0px 5px 30px;
+    text-align: left;
+    right: -150px;
+    margin-top: -70px;
+}
+
+.session-mid4{
+    background: #14aad5 url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/bg4.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 1060px;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.heading-system{
+    color: #ffffff;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    padding-top: 100px;
+}
+
+.item-system{
+    display: inline-block;
+    text-align: justify;
+    color: #763a19;
+}
+
+.block-1{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/system1.png") no-repeat;
+    width: 400px;
+    height: 405px;
+    background-size: 100%;
+    padding: 100px 50px;
+}
+
+.block-2{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/system2.png") no-repeat;
+    width: 330px;
+    height: 325px;
+    background-size: 100%;
+    padding: 80px 50px;
+}
+
+.block-3{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/system4.png") no-repeat;
+    width: 250px;
+    height: 246px;
+    background-size: 100%;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.block-4{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/system3.png") no-repeat;
+    width: 250px;
+    height: 246px;
+    background-size: 100%;
+    padding: 80px 40px;
+}
+
+.block-5{
+    background: url("http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/system5.png") no-repeat;
+    width: 300px;
+    height: 295px;
+    background-size: 100%;
+    padding: 90px 40px;
+}
+
+.box-system{
+    position: relative;
+    padding-top: 100px;
+}
+
+.footer-widget{
+    background: #3ac5ec;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-specs .item-specs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.box-specs .item-specs h1{
+    color: #ffffff;
+    font-family: 'FjallaOne-Regular', sans-serif;
+    /*font-family: "Times New Roman", sans-serif;*/
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.box-specs .item-specs p{
+    padding-top: 10px;
+    color: #017e93;
+}
+
+.session-footer{
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.logo-footer{
+    width: 80px;
+}
+
+/*.arrow-head{*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.head-prev{*/
+
+/*}*/
+@media all and (min-width: 990px){
+    .item-system{
+        position: absolute;
+    }
+
+    .block-1{
+        top: 100px;
+        left: -20px;
+    }
+
+    .block-2{
+        top: 500px;
+        left: 80px;
+        z-index: 3;
+    }
+
+    .block-3{
+        top: 380px;
+        left: 330px;
+        z-index: 5;
+    }
+
+    .block-4{
+        top: 550px;
+        left: 380px;
+        z-index: 2;
+    }
+
+    .block-5{
+        top: 430px;
+        left: 580px;
+        z-index: 1;
+    }
+
+
+    .avatar-p1{
+        left: -50px;
+    }
+
+    .no-padding{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .no-padding-left{
+        padding-left: 0px;
+    }
+    .no-padding-right{
+        padding-right: 0px;
+    }
+
+    .box-feature .item-feature{
+        min-height: 220px;
+    }
+
+    .box-feature .feature-1{
+        right: -50px;
+    }
+
+    .box-feature .feature-2{
+
+    }
+
+    .box-feature .feature-3{
+        right: -50px;
+    }
+
+    .box-feature .feature-4{
+        left: -50px;
+    }
+
+    .box-feature .feature-5{
+
+    }
+
+    .box-feature .feature-6{
+        left: -50px;
+    }
+
+    .token-1{
+        padding-top: 50px;
+    }
+
+    .token-2{
+        padding-top: 300px;
+    }
+
+    .block-token{
+        position: absolute;
+        top: 100px;
+        right: -100px;
+        max-width: 510px;
+    }
+
+    .specs2{
+        padding-top: 80px !important;
+    }
+
+}
+@media all and (min-width: 768px){
+
+    .block-3{
+        top: 380px;
+        left: 330px;
+        z-index: 5;
+        position: absolute;
+    }
+
+    .block-4{
+        top: 550px;
+        left: 380px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .block-5{
+        top: 430px;
+        left: 570px;
+        z-index: 1;
+        position: absolute;
+    }
+
+}
+@media all and (max-width: 1200px) {
+    .box-seed{
+        min-height: 400px;
+    }
+    .block-capital p{
+        text-align: center;
+    }
+
+    .head-how{
+        padding: 150px 0px;
+    }
+
+    .head-token {
+        padding: 160px 0px;
+    }
+
+}
+@media all and (max-width: 1150px) {
+    .box-seed{
+        min-height: 440px;
+    }
+
+
+}
+
+@media all and (max-width: 1100px) {
+    .box-seed{
+        min-height: 460px;
+    }
+
+    .head-token {
+        padding: 150px 0px;
+    }
+}
+@media (max-width: 1024px){
+    .box-seed {
+        min-height: 470px;
+    }
+
+
+}
+@media all and (max-width: 990px) {
+
+    .box-seed{
+        min-height: auto;
+    }
+
+    .seed-left{
+        -webkit-clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+        clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+    }
+
+    .seed-right{
+        -webkit-clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+        clip-path: polygon(50% 0%, 75% 0, 100% 50%, 75% 100%, 50% 100%, 25% 100%, 0 50%, 25% 0);
+    }
+
+    .session2{
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+
+    .block-feature{
+        max-width: 500px;
+        margin: 0px auto;
+        min-height: 600px;
+    }
+
+    .block-token{
+        max-width: 500px;
+        margin: 20px auto 0px;
+        min-height: 550px;
+    }
+
+    .head-how{
+        padding: 180px 0px;
+    }
+
+    .head-token {
+        padding: 220px 0px;
+    }
+
+    .box-experience{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .block-experience{
+        padding-top: 0px;
+    }
+
+    .box-overlay{
+        display: none;
+    }
+
+    .box-contact1,
+    .box-contact2{
+        padding: 15px;
+    }
+
+    .avatar-p1, .avatar-p2, .btn-name{
+        position: static;
+        position: relative;
+        z-index: 4;
+        top: 0px;
+    }
+
+    .avatar-p1, .avatar-p2{
+        max-width: 290px;
+    }
+
+    .btn-name{
+        right: auto;
+        left: 0px;
+        top: 280px;
+        position: absolute;
+        /* bottom: 0px; */
+    }
+
+    .avatar-p1 .btn-name{
+        left: -50px;
+    }
+
+    .avatar-p1{
+        right: 15px;
+    }
+
+    .item-contact{
+        min-height: 300px;
+    }
+}
+@media all and (max-width: 768px) {
+
+
+    .logo{
+        padding: 15px 0px;
+    }
+
+    .btn-login-landing{
+        margin: 15px 0px;
+    }
+
+    .box-intro{
+        padding: 15px 0px;
+    }
+
+    .heading-1{
+        font-size: 28px;
+    }
+
+    .block-feature {
+        min-height: 400px;
+    }
+
+    .head-token{
+        padding-top: 210px;
+    }
+
+    .heading-token{
+        padding-left: 15px;
+    }
+
+    .text-intro-experience{
+        padding-top: 0px;
+    }
+
+    .avatar-p1{
+        right: 0px;
+    }
+
+    .avatar-p1 .btn-name{
+        left: 0px;
+    }
+
+    .text-item{
+        min-height: auto;
+        margin-top: 100px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .heading-token{
+        font-size: 30px;
+    }
+    .block-1 {
+        width: 100%;
+        padding: 70px 50px;
+    }
+    .heading-system{
+        padding-top: 0px;
+    }
+    .box-experience{
+        min-height: auto;
+    }
+    .head-how {
+        padding: 120px 0px;
+    }
+
+    .block-capital h4{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .heading-border span:before{
+        margin-right: 50px;
+    }
+
+    .heading-border span:after{
+        margin-left: 50px;
+    }
+
+    .heading-border span:before, .heading-border span:after{
+        width: 50px;
+    }
+
+    .head-token{
+        padding-top: 150px;
+    }
+
+    .block-token{
+        max-width: 500px;
+        margin: 20px auto 0px;
+        min-height: 400px;
+    }
+
+    .avatar-p1, .avatar-p2{
+        max-width: 190px;
+        min-height: 220px;
+    }
+
+    .avatar-p1 .btn-name{
+        left: 0px;
+    }
+
+    .avatar-p1{
+        right: 0px;
+    }
+
+    .btn-name{
+        top: 230px;
+    }
+
+    .item-contact {
+        min-height: 150px;
+    }
+
+    .only-line{
+        position: relative;
+        top: 0px;
+    }
+
+    .text-item{
+        min-height: auto;
+        margin-top: 0px;
+    }
+
+    .session-header-landing .logo{
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .head-token{
+        padding-top: 120px;
+    }
+}
+
+/*font-family: 'Fjalla One', sans-serif;*/

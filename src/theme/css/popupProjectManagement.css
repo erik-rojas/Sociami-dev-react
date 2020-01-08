@@ -1,0 +1,154 @@
+.popup-new-project {
+    padding: 40px;
+    margin: 0 auto;
+      background-color: grey;
+      color: white;
+  }
+  .popup-new-project img {
+      max-width: 50%;
+  }
+    .default-popup-heading,
+      .checkbox {
+        margin-bottom: 30px;
+      }
+  
+      .checkbox {
+        font-weight: normal;
+      }
+  
+      .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        z-index: 2;
+      }
+  
+      .popup-new-project input [type="text"] {
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+  
+      .popup-new-project input [type="text"] {
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
+  
+      .popup-new-project input, .popup-new-project textarea {
+          background-color: grey;
+          color: white;
+      }
+  
+      .popup-new-project datalist option{
+          background-color: grey;
+          color: white;
+      }
+  
+      .popup-new-project textarea.form-control  {
+        height: 200px;
+      }
+  
+      .popup-new-project .button-close {
+          padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      }
+  
+  .modal_base {
+      background-color: transparent;
+      padding-top: 80px;
+  }
+  
+  .wrapper:focus, .modal_base:focus {
+      outline: 0;
+  }
+  
+  .wrapper {
+      height: 100%;
+  }
+  
+  .create-project-desc-column {
+      text-align: center;
+  }
+  
+  .popup-new-project .project-section-badge  {
+      margin-right: 20px;
+      padding: 5px 10px;
+  }
+  
+  .popup-new-project .header {
+      text-align: center;
+  }
+  
+  .milestone-add-button {
+      text-align: center;
+  }
+  
+  .popup-new-project .milestone-add-button .glyphicon{
+      font-size: 70px;
+  }
+  
+  .popup-new-project .project-popup-link-default {
+      color: black;
+  }
+  
+  .popup-new-project .project-popup-link-default:hover {
+      color: black;
+  }
+  
+  .popup-new-project .project-popup-link-default:focused {
+      color: black;
+  }
+  
+  .popup-new-project .project-popup-link-default:visited {
+      color: black;
+  }
+  
+  .popup-new-project .project-popup-milestone-control-icon {
+      font-size: 30px;
+  }
+  
+  .popup-new-project .single-milestone {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 5px;
+      border: 1px solid #00000028;
+  }
+  
+  .popup-new-project input [type="date"] {
+      line-height: initial;
+  }
+  
+  .popup-new-project .close-button-container {
+      text-align: center;
+  }
+  
+  .popup-new-project .milestones-container {
+      min-height: 200px;
+  }
+  .modal-popup .form-control{
+    line-height: 10px !important;
+    padding: 5px;
+  }
+  .modal-popup .form-control input {
+      width: 100% !important;
+  }
+  .hangout-btn-ok {
+    border: 0;
+    outline-style: none;
+    width: 97px;
+    height: 40px;
+    background-color: #fdd823;
+    color:#e74b49;
+    box-shadow: 1px 2px 3px 1px #b4b4b4;
+ }
+ .hangout-btn-cancel {
+    border: 0;
+    outline-style: none;
+    width: 97px;
+    height: 40px;
+    color: #a7a6a3;
+ }

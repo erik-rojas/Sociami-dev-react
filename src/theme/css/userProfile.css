@@ -1,0 +1,319 @@
+.profile-wrapper .theme-box-right {
+  border: 1px solid rgb(6, 144, 247);
+  box-shadow: 0px 0px 5.53px 1.47px rgba(73, 177, 255, 0.53);
+  background: #111222;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+  padding: 0px;
+  position: relative;
+}
+.profile-wrapper .theme-box-right .box {
+  background-image: -moz-linear-gradient(138deg, rgba(50, 57, 194, 0.2) 0%, rgba(22, 22, 22, 0.2) 100%);
+  background-image: -webkit-linear-gradient(138deg, rgba(50, 57, 194, 0.2) 0%, rgba(22, 22, 22, 0.2) 100%);
+  background-image: -ms-linear-gradient(138deg, rgba(50, 57, 194, 0.2) 0%, rgba(22, 22, 22, 0.2) 100%);
+  padding: 25px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #5d5e72;
+  font-size: 12px;
+}
+.profile-wrapper .intro-wp ul {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 16px;
+}
+.profile-wrapper .intro-wp ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+.profile-wrapper .intro-wp ul li:last-child {
+  margin-bottom: 0px;
+}
+.profile-wrapper .intro-wp .editbtn {
+  font-size: 12px;
+  color: #fff;
+}
+.profile-wrapper .intro-wp .editbtn:hover {
+  color: #0069be;
+}
+.profile-wrapper .intro-wp ul li .icon {
+  background-image: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/userProfile/strip-icons.png);
+  background-position: 0px 4px;
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+}
+.profile-wrapper .intro-wp ul li .icon.p-icon {
+  background-position: 0 -28px;
+}
+.profile-wrapper .intro-wp ul li .icon.bt-icon {
+  background-position: 0 -57px;
+}
+.profile-wrapper .intro-wp ul li .icon.pc-icon {
+  background-position: 0 -88px;
+}
+.profile-wrapper .top-wp {
+  float: left;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px 54px 12px 22px;
+  height: 125px;
+}
+.profile-wrapper .top-wp .clf .imgbox {
+  border: 2px solid rgb(170, 11, 182);
+  border-radius: 50%;
+  background-color: rgb(0, 70, 116);
+  box-shadow: 0px 0px 8px 0px rgba(252, 108, 255, 0.81), 0px 0px 8px 0px rgba(255, 108, 255, 0.99),
+    0px 0px 10px 0px rgba(0, 193, 255, 0.99);
+  width: 88px;
+  height: 88px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.profile-wrapper .top-wp .clf .imgbox span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.profile-wrapper .top-wp .clf h3 {
+  color: #fff;
+  font-size: 24px;
+  float: left;
+  margin-left: 24px;
+  margin-top: 2.3rem;
+}
+.profile-wrapper .top-wp .clf .imgbox img {
+  width: 100%;
+}
+
+.profile-wrapper .theme-box-right .box .col-heading {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.profile-wrapper .theme-box-right .box h5 {
+  color: #ffb500;
+  font-size: 12px;
+  margin: 15px 0;
+}
+.profile-wrapper .theme-box-right .box .fot-wp p {
+  margin: 0;
+  font-weight: 200;
+}
+.profile-wrapper .theme-box-right .box .fot-wp {
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  line-height: 25px;
+  margin-top: 5px;
+}
+.profile-wrapper .theme-box-right .box .fot-wp .bttons-right-box {
+  float: left;
+  width: 100%;
+  margin: 15px 0 20px;
+}
+.profile-wrapper .theme-box-right .box .fot-wp .bttons-right-box li {
+  display: inline-block;
+  background-color: rgb(0, 105, 190);
+  box-shadow: inset 0px 3px 7px 0px rgba(0, 82, 147, 0.71);
+  width: auto;
+  margin: 0 3px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  transform: skew(-30deg);
+  height: 25px;
+  line-height: 25px;
+}
+.profile-wrapper .theme-box-right .box .fot-wp .bttons-right-box li a {
+  color: #fff;
+  transform: skew(30deg);
+  display: block;
+  padding: 0 15px;
+}
+.blue-rounded-btn {
+  color: #0069be;
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid #0069be;
+  text-align: center;
+  height: 25px;
+  display: inline-block;
+  line-height: 24px;
+  padding: 0px 15px;
+  border-radius: 50px;
+  margin: 0 4px;
+  text-transform: uppercase;
+}
+.blue-rounded-btn:hover {
+  border-color: #fff;
+}
+.blue-rounded-btn.small-text {
+  height: 20px;
+  font-size: 10px;
+  line-height: 19px;
+  padding: 0 10px;
+  margin-bottom: 12px;
+}
+.btn-join {
+  border-radius: 14px;
+  background-image: -moz-linear-gradient(90deg, rgb(50, 0, 55) 0%, rgb(164, 0, 178) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(50, 0, 55) 0%, rgb(164, 0, 178) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(50, 0, 55) 0%, rgb(164, 0, 178) 100%);
+  opacity: 0.949;
+  box-shadow: 0px 0px 15px 0px rgba(255, 0, 254, 0.44), 0px 0px 15px 0px rgba(207, 0, 254, 0.25),
+    0px 0px 15px 0px rgba(207, 0, 254, 0.36);
+  width: 71px;
+  height: 29px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  line-height: 29px;
+}
+.btn-join:hover {
+  opacity: 0.7;
+}
+.profile-wrapper .top-wp .clf .imgbox a {
+  display: block;
+  color: #fff;
+}
+.profile-wrapper .top-wp .middle-edit {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.profile-wrapper .top-wp .middle-edit a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+.btn-lavel-yellow {
+  color: #ffa300;
+  border: 1px solid #ffa300;
+  height: 24px;
+  min-width: 75px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+.btn-lavel-yellow:hover {
+  border: 1px solid #fff;
+}
+.btn-lavel-yellow:focus {
+  color: #ffa300;
+  border: 1px solid #ffa300;
+  text-decoration: none;
+}
+.profile-wrapper .top-wp .last-right p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+.profile-wrapper .top-wp .last-right .btn-follow {
+  border: 1px solid #8f029e;
+  width: 71px;
+  height: 29px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  line-height: 29px;
+  border-radius: 50px;
+  margin: 0 1.2rem;
+}
+.profile-wrapper .top-wp .last-right {
+  width: 22%;
+  float: right;
+}
+.profile-wrapper .top-wp .last-right .btn-send {
+  border: 1px solid #8f029e;
+  width: 29px;
+  height: 29px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  line-height: 29px;
+  border-radius: 50%;
+  padding-top: 4px;
+  float: right;
+}
+.profile-wrapper .top-wp .last-right .btn-send img {
+  margin-left: 3px;
+}
+.h-100 {
+  height: 100%;
+}
+.profile-loading {
+  text-align: center;
+  min-height: 800px;
+  color: #fff;
+}
+.no-friends{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 16px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .profile-wrapper .top-wp .last-right {
+    width: 33%;
+  }
+  .profile-wrapper .top-wp .last-right .btn-follow {
+    margin: 0 1rem;
+  }
+  .profile-wrapper .theme-box-right .box .fot-wp .bttons-right-box li a {
+    padding: 0 12px;
+  }
+}
+@media (max-width: 767px) {
+  .profile-wrapper .top-wp {
+    padding: 12px 15px;
+    height: auto;
+    background-size: cover;
+  }
+  .profile-wrapper .top-wp .middle-edit {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .profile-wrapper .top-wp .middle-edit a {
+    display: inline-block;
+    text-align: center;
+  }
+  .profile-wrapper .top-wp .last-right {
+    width: 100%;
+  }
+}
+.light-theme-wrapper.profile-wrapper .top-wp .last-right .btn-follow,
+.light-theme-wrapper.profile-wrapper .top-wp .last-right .btn-send {
+  background: #ccc;
+}
+.btn-follow,
+.btn-send {
+  background: #ccc;
+}

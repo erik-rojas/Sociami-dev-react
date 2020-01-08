@@ -1,0 +1,107 @@
+/*Trend Scanner*/
+#trend-scanner {
+  max-width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*trend scanner results navigation*/
+#trend-scanner .navbar-nav {
+  float:none;
+  padding-left: 0;
+}
+  
+#navbar-trend-scanner {
+  margin-left: 120px;
+}  
+  
+#navbar-trend-scanner ul li>a {
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: #4d4b4b;
+  /*color: rgb( 255, 255, 255 );*/
+  padding-left: 0;
+}
+
+#navbar-trend-scanner .nav>li>a:hover, #navbar-trend-scanner .nav>li>a:focus, #navbar-trend-scanner .nav>li>a.active {
+  background-color: #eff5ff!important;
+  text-decoration: underline;
+  border-radius: 12px 12px 0 0;
+  padding-left: 10px;
+}
+  
+#navbar-trend-scanner #bookmark-arrow-icon {
+  margin-left: 60px;
+}
+
+/*-------------------------*/
+
+/*trend scanner results list*/
+#trend-scanner-results {
+  width: 107%;
+  height: 85%;
+  margin-left: -35px;
+  padding: 25px 0 0 160px;
+  background-color: #eff5ff;
+  overflow-y: scroll;
+}
+.icons-margin {
+  margin-right: 15px;
+}
+#trend-scanner-results .list-item #icons {
+  float: left;
+}
+  
+#trend-scanner-results .list-item #text {
+  margin-left: 30px;
+  display: block;
+}
+
+#trend-scanner-results ul {
+  list-style: none;
+  padding: 0;
+}
+  
+#trend-scanner-results ul li{
+  padding-bottom: 50px;
+}
+  
+#trend-scanner-results .list-item #text {
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: #4d4b4b;
+  /*color: rgb( 255, 255, 255 );*/
+  padding-left: 0;
+  transition-duration: 0.5s;
+}
+
+#trend-scanner-results .list-item #text:hover {
+  background-color: transparent;
+  text-decoration: none;
+  /*background-color: rgba(240, 227, 227, 0.267);*/
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+  
+#trend-scanner-results .list-item #icons {
+  font-size: 22px;
+  font-family: "Comfortaa";
+}
+  
+#trend-scanner-results .list-item #icons a {
+  color: #4d4b4b;
+  /*color: rgb( 255, 255, 255 );*/
+}
+
+#trend-scanner-results .list-item #icons {
+  float: left;
+}
+  
+#trend-scanner-results .list-item #text {
+  margin-left: 30px;
+  display: block;
+}
+/*-------------------------*/
+
+  
+

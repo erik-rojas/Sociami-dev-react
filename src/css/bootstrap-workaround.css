@@ -1,0 +1,32 @@
+/* Disable horizontal overscroll on ios */
+
+@supports (-webkit-overflow-scrolling: touch) {
+  html, body {
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/*
+**
+** .row.fix-mobile-margin-8959 is a work around to fix
+** https://github.com/twbs/bootstrap/issues/8959
+** since I think this is a bug in old css-bootstrap versions
+**
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* apply this in non-mobile, and it will break/hide home feed */
+  .row.fix-mobile-margin-8959 {
+    margin-right: 0;
+  }
+
+  /* to center back the 3 divs who just lost the margin removed */
+  .row.fix-mobile-margin-8959 > div.col,
+  .row.fix-mobile-margin-8959 > div.col-middle {
+    margin-right: 15px;
+  }
+}

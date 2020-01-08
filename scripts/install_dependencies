@@ -1,0 +1,43 @@
+#!/bin/bash
+
+set -e
+
+TEMP_FOLDER='/home/ec2-user/sociamidev/'
+
+# setup NODE_ENV
+if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
+    export NODE_ENV=$DEPLOYMENT_GROUP_NAME
+
+    hasEnv=`grep "export NODE_ENV" ~/.bash_profile | cat`
+    if [ -z "$hasEnv" ]; then
+        echo "export NODE_ENV=$DEPLOYMENT_GROUP_NAME" >> ~/.bash_profile
+    else
+        sed -i "/export NODE_ENV=\b/c\export NODE_ENV=$DEPLOYMENT_GROUP_NAME" ~/.bash_profile
+    fi
+fi
+
+# add node to startup
+hasRc=`grep "su -l $USER" /etc/rc.d/rc.local | cat`
+if [ -z "$hasRc" ]; then
+    sudo sh -c "echo 'su -l $USER -c \"cd ~/node;sh ./run.sh\"' >> /etc/rc.d/rc.local"
+fi
+
+# Staging deployment by default
+DEPLOYMENT_PATH='/home/ec2-user/sociami_staging/'
+
+# Identify whether it is a production or staging deployment
+if [ "$DEPLOYMENT_GROUP_NAME" == "Production" ]; then
+  DEPLOYMENT_PATH='/home/ec2-user/sociami_production/'
+fi
+
+# create deployment folder if not existed
+mkdir -p $DEPLOYMENT_PATH
+
+# copy the code to deployment folder
+cp -Ru "$TEMP_FOLDER"* $DEPLOYMENT_PATH
+
+# update existing dependecies and install new dependencies if there're any changes
+cd $DEPLOYMENT_PATH
+npm install
+npm update
+

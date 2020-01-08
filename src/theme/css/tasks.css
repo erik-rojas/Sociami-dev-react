@@ -1,0 +1,198 @@
+.mb-20{margin-bottom: 20px !important}
+.tasks-wrapper .tab-wp{padding: 0; margin: 0;}
+.tasks-wrapper .tab-wp li {
+  display: inline-block;
+  padding: 0px 40px;
+  font-size: 14px;
+  color: #00497d;
+  min-height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+.tasks-wrapper .tab-wp li a {color: #00497d;}
+.tasks-wrapper .tab-wp li.active a {
+  color: #d01fe5;
+  text-decoration: none;
+}
+.tasks-wrapper .tab-wp li.active:after {
+  color: #d01fe5;
+  background: #9601a3;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 82px;
+  height: 3px;
+  right: 0;
+  margin: auto;
+  box-shadow: 0 -3px 18px #9601a3, 0 0px 10px #edc5f1;
+  transform: skewX(-30deg);
+}
+.tasks-wrapper .task-join {
+    left: 0%;
+    right: 0%;
+    margin: 0 auto;
+    bottom: -15px;
+    font: normal 12px "MyriadPro Bold";
+    padding-top: 12px;
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+}
+.tasks-wrapper .answer-question {
+    left: 0%;
+    right: 0%;
+    bottom: -15px;
+    position: absolute;
+    margin: 0 auto !important;
+    text-align: center;
+    padding-top: 9px !important;
+    height: 40px !important;
+    width: 133px;
+    font-size: 12px !important;
+    padding: 0 10px;
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.tasks-wrapper .col-box-join-task{
+    height: 155px
+}
+.dark-theme-wrapper.tasks-wrapper .task-desc{
+    font: normal 16px "MyriadPro";
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+.light-theme-wrapper.tasks-wrapper .task-desc{
+    font: normal 16px "MyriadPro";
+    text-align: center;
+    color: rgb(93, 94, 114);
+}
+.tasks-wrapper .link-yellow{
+    color: rgb(255, 197, 0);
+}
+.tasks-wrapper .task-heading{
+    width: 50%;
+    float: left;
+    padding: 10px 10px 10px 20px;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 197, 0);
+    line-height: 1.2;
+    font-weight: 600;
+}
+.tasks-wrapper .col-middle .top-head .col-heading {
+    color: rgb(255, 179, 33);
+    display: block;
+}
+.dark-theme-wrapper.tasks-wrapper .col-middle .top-head .col-heading {
+    display: block;
+    color: rgb(255, 255, 255);
+    font: normal 15px "MyriadPro Semibold";
+}
+.tasks-wrapper .col-middle .top-head .bule-text {
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: rgb(0, 102, 187);
+}
+.tasks-wrapper .col-middle .top-head .profile-icon{
+    border-width: 2px;
+    border-color: rgb(150, 1, 163);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(255, 199, 0);
+    width: 25px;
+    height: 25px;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+}
+.dark-theme-wrapper.tasks-wrapper .att-box.task-id{
+    color: rgb(93, 94, 114);
+}
+.light-theme-wrapper.tasks-wrapper .att-box.task-id{
+    color: rgb(93, 94, 114);
+}
+.tasks-wrapper .att-box{
+    border-top: 1px solid rgb(6, 144, 247);
+    color: #fff;
+    padding: 10px 10px 10px 30px;
+}
+.tasks-wrapper .task-id{
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: rgb(93, 94, 114);
+    line-height: 1.2;
+}
+.tasks-wrapper .task-att{
+    color: rgb(255, 197, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font: normal 11px "MyriadPro Bold";
+    width: 25%;
+    display: inline-block;
+}
+.tasks-wrapper .task-att-name{
+    display: inline-block;
+    font: normal 14px "MyriadPro Semibold";
+    line-height: 1.2;
+    width: 70%;
+}
+.light-theme-wrapper.tasks-wrapper .task-att-name{
+    color: rgb(93, 94, 114);
+}
+.btn-feedback{
+    border-width: 1px;
+    border-color: rgb(0, 145, 250);
+    border-style: solid;
+    border-radius: 50px;
+    background-image: -moz-linear-gradient( 90deg, rgb(50,0,55) 0%, rgb(164,0,178) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(50,0,55) 0%, rgb(164,0,178) 100%);
+    opacity: 0.949;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: black;
+    left: 0%;
+    right: 0%;
+    margin: 0 auto;
+    bottom: -15px;
+    font: normal 14px "MyriadPro";
+    padding-top: 8px;
+    position: absolute;
+    width: 70% !important;
+    height: 45px;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 105, 190);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.task-text{
+    display: inline-block;
+    width: 85%;
+}
+.light-theme-wrapper.tasks-wrapper .col-middle .yellow-btn, .light-theme-wrapper.tasks-wrapper .col-middle .pur-btn {
+    border-color: #0069ba;
+    color: #0069ba;
+    background: white;
+}
+.dark-theme-wrapper.tasks-wrapper .col-middle .pur-btn {
+    border: 2px solid #8e019c;
+    background: black;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50px;
+    height: 34px;
+    padding: 0 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    text-decoration: none;
+}

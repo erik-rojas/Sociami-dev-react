@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+TEMP_FOLDER='/home/ec2-user/sociamidev/'
+
+# Staging deployment by default
+DEPLOYMENT_PATH='/home/ec2-user/sociami_staging/'
+
+# Identify whether it is a production or staging deployment
+if [ "$DEPLOYMENT_GROUP_NAME" == "Production" ]; then
+  DEPLOYMENT_PATH='/home/ec2-user/sociami_production/'
+fi
+
+# create deployment folder if not existed
+mkdir -p $DEPLOYMENT_PATH
+
+# copy the code to deployment folder
+cp -Ru "$TEMP_FOLDER"* $DEPLOYMENT_PATH

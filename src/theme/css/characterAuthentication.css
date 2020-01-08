@@ -1,0 +1,92 @@
+.materialize-warper.authentication-wrapper {
+  font-family: 'MyriadPro';
+  background-image: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/character-creation-background.png);
+  background-size: cover;
+  min-height: 860px;
+  position: relative;
+  margin-bottom: -55px;
+}
+
+@media (max-width:767px) {
+  .materialize-warper.authentication-wrapper {
+    position: relative;
+    background-size: cover;
+  }
+}
+
+.authentication-card{
+  box-shadow: 0px 6px 22px #020202;
+  min-height:500px;
+  background: white;
+  padding: 30px;
+}
+.auth-facebook-button{
+  width: 100% !important;
+  color: black !important;
+  font: normal 15px "MyriadPro Bold" !important;
+  text-transform: inherit !important;
+  border-radius: 0 !important;
+  background: #3b5998 !important;
+  color: white !important;
+  margin-bottom: 10px !important;
+}
+.auth-linkedin-button{
+  width: 100% !important;
+  font: normal 15px "MyriadPro Bold" !important;
+  text-transform: inherit !important;
+  border-radius: 0 !important;
+  background: #0077B5 !important;
+  color: white !important;
+  margin-bottom: 10px !important;
+}
+.account-creation{
+  text-align: center;
+}
+.account-tnc{
+  padding-top: 50px;
+}
+.form-group-auth{
+  
+}
+.form-group-auth label{
+  float: left;
+  font-style: oblique;
+  color: #808080 !important;
+  font-size: 14px !important;
+  margin: 0;
+}
+.form-group-auth .auth-input{
+  background: rgb(232, 232, 232) !important;
+  height: 30px !important;
+  padding-left: 10px !important;
+  border: 0 !important;
+  width: 95% !important;
+  font: normal 15px "MyriadPro Semibold" !important;
+}
+.form-group-auth .password-input{
+  background: white !important;
+  border: 2px solid rgb(238, 238, 238) !important;
+  height: 30px !important;
+  padding-left: 10px !important;
+  width: 95% !important;
+  font: normal 15px "MyriadPro Semibold" !important;
+}
+.auth-create-button{
+  background-color: gold !important;
+  width: 100% !important;
+  color: black !important;
+  font: normal 15px "MyriadPro Bold" !important;
+  text-transform: inherit !important;
+  border-radius: 0 !important;
+  margin-top: 25px !important;
+}
+.authentication-tnc{
+  font: normal 16px "MyriadPro Semibold";
+  font-style: oblique;
+  padding-bottom: 10px;
+}
+.authentication-para{
+  font: normal 16px "MyriadPro Semibold";
+  color: grey;
+  padding-bottom: 10px;
+}

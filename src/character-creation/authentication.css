@@ -1,0 +1,127 @@
+#character-authenticate-container { 
+    height: 100%;
+}
+
+@media all and (max-width : 768px) {
+    #character-authenticate-container {
+        padding: 0px !important;
+    }
+}
+
+#character-authenticate-container p { 
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb( 33, 33, 33 );
+    line-height: 2;
+}
+
+#character-authenticate-container-inner { 
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#character-creation-authenticate-button-container {
+    padding: 98px 0px 33px;
+}
+@media all and (max-width : 768px) {
+    #character-creation-authenticate-button-container {
+        padding-top: 35px !important;
+    }
+}
+
+.character-creation-auth-button {
+    margin-right: 20px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px 0px rgb(163, 163, 163);
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb( 255, 255, 255 );
+    line-height: 2;
+    display: inline;
+}
+
+#character-creation-authorization-disclaimer hr {
+    padding: 0 40px;
+}
+
+#character-creation-authorization-disclaimer hr {
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+#character-creation-paragraph-primary {
+    padding: 40px 0px 20px;
+}
+@media all and (min-width : 768px) {
+    #character-creation-paragraph-primary {
+        width: 550px;
+        margin: auto;
+        text-align: center;        
+    }
+}
+
+.character-creation-paragraph {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#character-creation-paragraph-secondary {
+    padding: 20px 0px 30px 0px;
+}
+
+#character-creation-paragraph-tertiary {
+    margin-bottom: 0px;
+}
+
+#character-authenticate-container .character-creation-progressbar-container { 
+    margin-top: 0;
+}
+
+.character-creation-social-icon {
+    margin-right: 12px;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+}
+.character-creation-social-icon.linkedin {
+    background: #ffffff;
+    color: #007ab6;
+    padding: 0px 2px;
+    border-radius: 2px;
+    background: white;
+}
+
+#character-creation-button-facebook {
+    border: 1px solid rgb( 80, 124, 192 );
+    background-color: rgba( 80, 124, 192, 1.0);
+}
+
+#character-creation-button-facebook:hover {
+    background-color: rgba( 80, 124, 192, 0.75);
+}
+
+#character-creation-button-linkedin {
+    border: 1px solid rgb( 0, 122, 182 );
+    background-color: rgba( 0, 122, 182, 1.0);
+}
+
+#character-creation-button-linkedin:hover {
+    background-color: rgba( 0, 122, 182, 0.75);
+}
+
+#character-seelection-header {
+    font-size: 24px;
+    font-family: "Fjalla One";
+    color: rgb( 221, 48, 58 );
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width : 768px) {
+    .character-creation-auth-button {
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+}

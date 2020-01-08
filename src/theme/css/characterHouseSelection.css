@@ -1,0 +1,483 @@
+.materialize-warper.select-house-wrapper {
+    font-family: 'MyriadPro';
+    background-size: 100%;
+    position: relative;
+    background: black;
+}
+  
+@media screen and (max-width: 768px) {
+    .materialize-warper.select-house-wrapper {
+        min-height: 800px;
+        margin-bottom: -70px;
+    }
+}
+
+.select-house-wrapper .house-desktop-view{
+    display: block;
+}
+
+.select-house-wrapper .house-mobile-view{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper .house-desktop-view{
+        display: none;
+    }
+    
+    .select-house-wrapper .house-mobile-view{
+        display: block;
+    }
+}
+
+.select-house-wrapper .houses-wrapper{
+    width: 100%;
+    margin-top: 25px;
+    border-width: 1px;
+    border-color: rgb(66, 154, 222);
+    border-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper .houses-wrapper{
+        padding: 0;
+        margin-top: 35px;
+    }
+}
+
+.character-panel-container{
+    width: 33.33333333%;
+    float: left; 
+    border-width: 1px;
+    border-color: rgb(66, 154, 222);
+    border-style: solid;
+}
+
+.character-description-container{
+    width: 66.66666667%;
+    float: right;
+    border-width: 1px;
+    border-color: rgb(66, 154, 222);
+    border-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+    .character-panel-container{
+        width: 100%;
+        float: right;
+    }
+    
+    .character-description-container{
+        width: 100%;
+        float: left;
+    }
+}
+
+.select-house-wrapper div.character-panel {
+    background-color: black;
+    box-shadow: 0px 11px 22px 0px rgba(14, 31, 48, 0.76);
+    height: 471px;
+    padding: 20px 15px 20px 15px;
+    overflow-y: scroll;
+}
+
+.select-house-wrapper div.character-description-box {
+    border-width: 2px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 12px 24px 0px rgba(10, 22, 34, 0.004);
+    height: 471px;
+    position: relative;
+    background-size: cover;
+    padding: 40px 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper div.character-panel {
+        height: auto;
+        padding: 12px 0px 12px 0px;
+    }
+    
+    .select-house-wrapper div.character-description-box {
+        height: auto;
+    }
+}
+
+.character-panel-container .character-grid{
+    height: 150px;
+    padding: 0px;
+}
+
+.character-panel-container .character-selection-button {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 91px;
+    height: 91px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    border-width: 2px;
+    border-color: rgb(150, 1, 163);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+}
+
+.character-panel-container .character-selection-button.character-selected {
+    border-width: 2px;
+    border-color: rgb(150, 1, 163);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(235, 235, 235);
+    box-shadow: 0px 0px 15px 0px rgba(226, 113, 236, 0.004);
+}
+
+.character-selection-button.character-order img {
+    width: 150px;
+    height: 150px;
+}
+
+.character-panel-container .character-name{
+    text-align: center;
+    font: normal 13px "MyriadPro Semibold";
+    color: white;
+    margin-top: 6px;
+    line-height: 1.3;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: capitalize;
+}
+
+.character-description-container .character-header{
+    font: normal 20px "MyriadPro Bold";
+    color: rgb(0, 105, 190);
+    text-transform: uppercase;
+    padding: 40px 0px 10px 0px;
+} 
+
+.character-description-container .character-description{
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font: normal 16px "MyriadPro Semibold";
+    width: 100%;
+}
+
+.character-description-container .character-skills{
+    text-align: center;
+    display: inline-flex;
+}
+
+.character-description-container .character-skill{
+    font: normal 12px "MyriadPro Bold";
+    border-width: 2px;
+    border-color: rgb(0, 145, 250);
+    color: rgb(0, 105, 190);
+    line-height: 1.2;
+    border-style: solid;
+    border-radius: 14px;
+    padding: 5px 15px;
+    margin-right: 10px;
+} 
+
+@media screen and (max-width: 768px) {
+    .character-panel-container .character-grid{
+        height: 130px;
+    }
+    .character-panel-container .character-selection-button {
+
+    }
+    .character-panel-container .character-selection-button.character-selected {
+
+    }
+    .character-description-container .character-name{
+
+    }
+    .character-description-container .character-header{
+        font: normal 22px "MyriadPro Bold";
+        padding: 0;
+    }
+    .character-description-container .character-description{
+        top: 40%;
+        font: normal 16px "MyriadPro Bold";
+        padding: 15px 0px;
+    }
+    .character-description-container .character-skills{
+        top: 80%;
+    }
+    .character-description-container .character-skill{
+        font: normal 15px "MyriadPro Bold";
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+.select-house-wrapper p{
+    margin: 16px 0 8px;
+    font: normal 15px "MyriadPro Bold";
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper p{
+        /* max-width: 130px; */
+        margin: 4px 0 8px;
+        font-size: 13px;
+        line-height: 12.8px;
+    }
+
+    .select-house-wrapper p br {
+        display: none;
+    }
+}
+
+.select-house-wrapper .title-desktop {
+    background: url('https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/step-title.png') no-repeat;
+    margin-left: 17%;
+}
+
+.select-house-wrapper .title-desktop span {
+    display: inline-block;
+    width: 222px;
+    font: normal 18px "MyriadPro Bold";
+    color: rgba(254, 254, 254, 0.21);
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.select-house-wrapper .title-desktop span.active {
+    width: 295px;
+    margin-left: 169px;
+    color: white;
+    text-align: left;
+}
+
+.select-house-wrapper .title-desktop span:last-of-type {
+    width: 112px;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper .title-desktop{
+        display: none;
+    }
+
+    .select-house-wrapper p br {
+        display: none;
+    }
+}
+
+.select-house-wrapper .title-mobile {
+    display: none;
+    margin-left: 3%;
+}
+
+.select-house-wrapper .title-mobile span {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    font: normal 13px "MyriadPro Bold";
+    color: rgba(254, 254, 254, 0.21);
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 5px;
+}
+
+.select-house-wrapper .title-mobile span.active {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper .title-mobile {
+        display: block;
+    }
+}
+
+.select-house-wrapper > img{
+    width: 100%;
+    min-height: 861px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .select-house-wrapper > img{
+        min-height: 1040px;
+        object-position: 65%;
+    }
+}
+
+.house-button-wrapper{
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+}
+
+.house-button-wrapper button.back-button{
+    border-width: 2px;
+    border-color: rgb(150, 1, 163);
+    border-style: solid;
+    opacity: 0.949;
+    width: 132px;
+    height: 47px;
+    border-radius: 50px;
+    background: black;
+}
+
+.house-button-wrapper button.next-button{
+    border-width: 2px;
+    border-color: rgb(150, 1, 163);
+    border-style: solid;
+    opacity: 0.949;
+    width: 132px;
+    height: 47px;
+    border-radius: 50px;
+    background: black;
+}  
+
+.house-button-wrapper p{
+    color: rgb(150, 1, 163);
+}
+
+@media screen and (max-width: 768px) {
+    .house-button-wrapper{
+        text-align: center;
+        position: absolute;
+        bottom: -25px;
+        left: 15%;
+    }
+    .house-button-wrapper button{
+        padding: 5px 40px;
+    }
+    .house-button-wrapper button.back-button{
+    
+    }
+    .house-button-wrapper button.next-button{
+    
+    }
+    .house-button-wrapper p{
+        font-size: 13px;
+    }
+}
+
+.select-house-lightbox{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: block;
+}
+.character-description-box-modal{
+    top: 5%;
+    position: relative;
+    box-shadow: 0px 12px 24px 0px rgba(10, 22, 34, 0.004);
+    height: 500px;
+    position: relative;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(4, 4, 4);
+    width: 85%;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.character-description-box-modal .character-name-modal{
+    text-align: center;
+    font: normal 13px "MyriadPro Semibold";
+    color: black;
+    margin-top: 6px;
+    line-height: 1.3;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-transform: capitalize;
+}
+
+.character-description-box-modal .character-header-modal{
+    font: normal 35px "MyriadPro Bold";
+    color: white;
+    text-transform: uppercase;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+}
+
+.character-description-box-modal .character-description-modal{
+    position: absolute;
+    top: 25%;
+    color: white;
+    font: normal 20px "MyriadPro Semibold";
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    width: 100%;
+}
+
+.character-description-box-modal .character-skills-modal{
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    padding: 0;
+}
+
+.character-description-box-modal .character-skill-modal{
+    font: normal 17px "MyriadPro Bold";
+    color: rgb(255, 212, 0);
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
+}
+
+.house-button-wrapper-modal{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.house-button-wrapper-modal button{
+    display: inline-block;
+    padding: 10px 45px;
+    margin: 45px 10px 0px 10px !important;
+    font: normal 20px "MyriadPro Semibold";
+    color: black;
+    transform: skew(-38deg);
+}
+
+.house-button-wrapper-modal button.back-button{
+    background-color: white;
+    box-shadow: 0px 11px 18px 0px rgba(14, 31, 48, 0.4), inset 0px 3px 7px 0px rgba(195, 189, 161, 0.71);
+}
+
+.house-button-wrapper-modal button.next-button{
+    background-color: gold;
+    box-shadow: 0px 11px 18px 0px rgba(14, 31, 48, 0.4), inset 0px 3px 7px 0px rgba(206, 174, 18, 0.71);
+}
+
+.house-button-wrapper-modal p{
+    margin: 0;
+    font: normal 17px "MyriadPro Bold";
+    transform: skew(38deg);
+}
+.close-house-lightbox{
+    color: white;
+    vertical-align: top;
+    top: 0%;
+    position: absolute;
+    right: 5%;
+}
+.select-house-header{
+    font: normal 30px "MyriadPro Bold";
+    color: rgb(255, 197, 0);
+    line-height: 1.2;
+}
+.select-house-desc{
+    font: normal 18px "MyriadPro Bold";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    padding: 20px 0px;
+}

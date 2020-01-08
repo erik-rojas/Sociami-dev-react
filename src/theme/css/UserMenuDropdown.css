@@ -1,0 +1,95 @@
+/* 
+Dropdown Style
+*/
+
+.navbar-options li.user a {
+  color: #ffffff;
+  font-size: 16px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 2px 0px 2px 0px;
+}
+
+.stats-body {
+  margin-left: 0px !important;
+  display: list-item !important;
+  font-family: "MyriadPro Semibold";
+}
+
+.navbar-options > .user-menu > .dropdown-menu {
+  background-color: black !important;
+    box-shadow: 0px 3px 5px 2px rgba(0,0,0,0.3);
+    padding: 20px 20px 20px 20px;
+    position: fixed;
+    top: -20px;
+    right: -20px;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar-options > .user-menu > .dropdown-menu {
+    right: -65px;
+  }
+}
+
+.navbar-options > .user-menu > .dropdown-menu > .user-name-tag {
+  padding-left: 40px;
+  color: white;
+}
+
+.navbar-options > .user-menu > .dropdown-menu > .user-links {
+  padding-left: 40px;
+  color: white;
+  padding-right: 40px
+}
+
+.user-body {
+  margin-left: 0px !important;
+  display: list-item !important;
+  font-family: "MyriadPro Semibold";
+}
+
+@media (max-width: 991px) {
+  .navbar-top-links > .dropdown > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse.pull-left {
+    float: none !important;
+  }
+  .navbar-collapse.pull-left + .navbar-custom-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-top-links > .user-menu > .dropdown-menu {
+    position: absolute;
+    right: 0;
+    margin-top: -6px;
+  }
+}
+
+.name-tag{
+  margin-top: 7px;
+  font-size: 16px;
+  font-family: "MyriadPro Semibold";
+}
+.user-hr{
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  border-color: white !important;
+  width: 90%;
+}
+.user-link-text{
+  font: normal 16px "MyriadPro Semibold";
+  padding-left: 32px !important;
+  margin: 4px;
+}
+

@@ -1,0 +1,108 @@
+
+#nav-top {
+  min-height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#nav-top .navbar {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0;
+}
+
+/*Later on - we need to have left-sidebar enter/exit the screen, and be topmost when active on mobile*/
+/*Try playing with media queries to achieve that*/
+@media screen and (min-width: 1000px) {
+  #nav-top .navbar {
+    margin-right: 60px;
+  }
+}
+
+#nav-top .nav>li>a {
+  padding: 0;
+  line-height: 35px;
+  margin-right: 15px;
+}
+
+#nav-top .navbar .top-nav-btn {
+  font-size: 13px;
+  font-family: "Comfortaa";
+  color: rgb( 246, 246, 246 );
+  line-height: 1.538;
+  border-radius: 3px;
+  background-color: rgb( 182, 199, 234 );
+  padding: 10px 16px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+#nav-top .navbar .top-nav-btn:hover {
+  background-color: rgb( 128, 163, 235 );
+}
+
+#nav-top .navbar .top-nav-btn.active {
+  background-color: rgb( 128, 163, 235 );
+}
+
+/*center links in navbar*/
+#nav-top .navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+#nav-top .navbar .navbar-collapse {
+  text-align: center;
+}
+/*-------------*/
+
+#nav-top li {
+  margin-right: 10px;
+}
+
+#nav-top li.nav-user-profile-control {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#nav-top .navbar-btn {
+  margin-top: 0;
+  margin-right: 10px;
+}
+.rgt-setting {
+  float: right;
+  margin-left: 15px;
+}
+.rgt-setting span{
+color: white;
+}
+.setting-block {
+list-style: none;
+padding: 0px;
+margin: 0 auto;
+position: absolute;
+background: rgba( 122, 204, 200, 0.8);
+z-index: 1;
+display: none;
+}
+.rgt-setting:hover .setting-block {
+display: block;
+}
+.setting-block li {
+line-height: normal;
+height: auto;
+padding: 8px 15px;
+border-bottom: 1px solid #fff;
+}
+.setting-block li a {
+height: auto;
+line-height: normal !important;
+}

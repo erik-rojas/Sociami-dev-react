@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans');
+/* .tooltip-user {
+  background: red;
+} */
+.rc-tooltip {
+  opacity: 1;
+  transition: .2s ease-in-out;
+  z-index: 99999999;
+}
+
+.rc-tooltip.animation-enter,
+.rc-tooltip.animation-leave  {
+  opacity: 0;
+}
+
+
+.tooltip-user .rc-tooltip-content {
+  width: 400px;
+}
+
+.tooltip-user .rc-tooltip-inner {
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 150px;
+  padding: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+  background: #fff;
+}
+
+.tooltip-user .user-header .loading-data {
+  color: #fff;
+  font-family: inherit;
+  
+}
+.tooltip-user .user-header {
+  height: 150px;
+  background: url("../images/profile_bg.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.tooltip-user .user-header .user-header-info {
+  max-width: 240px;
+}
+
+.tooltip-user .user-header .user-header-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background: #fff;
+}
+
+.tooltip-user .user-header .user-header-avatar img {
+  width: 100%;
+}
+
+.tooltip-user .user-header .user-header-info .user-name {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+  color: #fff;
+}
+
+.tooltip-user .user-header .user-header-info .user-socaial {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.tooltip-user .user-action {
+  min-height: 70px;
+  background: #2fa7d2;
+  display: flex;
+  align-items: center;
+}
+
+.tooltip-user .user-action .item {
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-right: 1px solid rgba(255, 255, 255, .8);
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 0 15px;
+  text-align: center;
+  transition: .2s ease-in;
+}
+
+.tooltip-user .user-action .item:hover {
+  background: #1e96c2;
+}
+
+.tooltip-user .user-action .item:last-child {
+  border: none;
+}
+

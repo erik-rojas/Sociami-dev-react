@@ -1,0 +1,35 @@
+.group-btn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.logo-social {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.close-x {
+  position: absolute;
+  top: 6px;
+  right: -30px;
+  width: 20px;
+  height: 30px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.abs {
+  display: inline-block;
+  position: absolute;
+  color: white;
+}
+.inline {
+  display: inline;
+}
+.-mt-3 {
+  margin-top: -3px;
+}

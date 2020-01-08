@@ -1,0 +1,137 @@
+.my-progress-heading{
+    color: #e7403f;
+    text-transform: uppercase;
+    font-family: 'FjallaOne-Regular';
+}
+.progressiontree-container{
+    overflow-y: scroll;
+    height: 100%;
+}
+@media (max-width: 480px){
+    .progressiontree-container{
+        overflow-y: scroll;
+        height: 500px;
+    }
+}
+@media (max-width: 768px){
+    .progressiontree-container{
+        overflow-y: scroll;
+        height: 65vh;
+    }
+}
+.progression-tree-sidebar{
+    background: #FCF9DA;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    overflow-y: scroll;
+}
+.progressiontree-header{
+    position: relative;
+    color: #FFFFFF;
+    background-color: #E52A41;
+    text-align: center;
+    line-height: 40px;
+    width: 60%;
+    margin-left:22%;
+    margin-bottom: 12px;
+}
+.progressiontree-header:after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    border-top: 20px solid transparent;
+    border-left: 12px solid #E52A41;
+    border-bottom: 20px solid transparent
+}
+.progressiontree-header:before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    border-top: 20px solid transparent;
+    border-right: 12px solid #E52A41;
+    border-bottom: 20px solid transparent;
+}
+.progression-list-item-red{
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-bottom: inherit;
+    background-color: #fff;
+    border: 1px solid #E52A41;
+}
+.progression-list-item-blue{
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin-bottom: inherit;
+    background-color: #fff;
+    border: 1px solid #2fa7d2;
+}
+.progression-list-heading-red{
+    font-size: 18px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: #E52A41 !important;
+    font-family: 'FjallaOne-Regular';
+    font-weight: 600;
+}
+.progression-list-heading-blue{
+    font-size: 18px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: #2fa7d2 !important;
+    font-family: 'FjallaOne-Regular';
+    font-weight: 600;
+}
+.expander a {
+    position: absolute;
+    left: -15px;
+    top: 8%;
+    z-index: 99999;
+    background: rgba(238, 137, 47, 0.8);
+    width: 30px;
+    height: 50px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 22px
+}
+.list-progression-trees{
+    width: 100%;
+    padding-left: 20px;
+}
+.skills-inprogress{
+
+}
+.timer-heading{
+    font-weight: 600;
+}
+.skill-in-progress{
+    margin: 0;
+}
+.show-more{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 480px){
+    .expander a {
+        display: none;
+    }
+    .expanding-mobile a, .expander a {
+        left: -30px;
+    }
+}
+@media (max-width: 768px){
+    .expander a {
+        display: none;
+    }
+    .expanding-mobile a, .expander a {
+        left: -30px;
+    }
+    /* .ptree-card {
+        width: 100%;
+    } */
+}
+

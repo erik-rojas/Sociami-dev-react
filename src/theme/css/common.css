@@ -1,0 +1,91 @@
+/*2 columns content*/
+.content-2-columns-left, .content-2-columns-right{
+  min-height: 200px;
+}
+  
+.content-2-columns-left, .content-2-columns-right {
+  background-color: white;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4abfea+0,21a7e5+67 */
+  /*background: rgb(74,191,234); /* Old browsers */*/
+  /*background-image: -moz-linear-gradient(45deg, rgb( 128, 163, 235 ) 100%, rgb( 155, 207, 204 ) 100%);*/
+  /*background-image: -webkit-linear-gradient(45deg, rgb( 128, 163, 235 ) 0%, rgb( 155, 207, 204 ) 100%);*/
+  /*background: linear-gradient(45deg, rgb( 128, 163, 235 ) 0%, rgb( 155, 207, 204 ) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4abfea', endColorstr='#21a7e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+  border-radius: 3px;
+}
+.content-2-columns-left-no-bg, .content-2-columns-right-no-bg {
+  border: 1px solid grey;
+  border-radius: 3px;
+  height: 633px;
+}
+
+.content-2-columns-left-bg-white, .content-2-columns-right-bg-white {
+  background: rgb(255, 255, 255);
+  color: #4d4b4b;
+  /*color: rgb( 92, 91, 91 );*/
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  height: 633px;
+}
+
+.content-2-columns-left-bg-white .content-2-columns-left-title {
+  color: #4d4b4b;
+  /*color: rgb( 92, 91, 91 );*/
+}
+/*------------------*/
+
+/*Think of better fix later*/
+/*#wrapper-content .content-2-columns-wrapper .col-lg-9 {
+  padding-left: 0;
+}
+
+#wrapper-content .content-2-columns-wrapper .col-lg-3 {
+  padding-right: 0; 
+}*/
+
+.content-2-columns-right-title-landing {
+  margin-bottom: 40px; /*Michael for landing*/
+}
+
+.content-2-columns-right-title {
+  margin-top: 40px;
+  margin-bottom: 30px; /*Michael for landing*/
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: black;
+  /*color: rgb( 255, 255, 255 );*/
+  line-height: 1.667;
+}
+
+.content-2-columns-left-title {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: #4d4b4b;
+  /*color: rgb( 255, 255, 255 );*/
+  line-height: 1.667;
+}
+.hide {
+  position: absolute;
+  top: -999%;
+}
+#progress-underline {
+  width: 155px;
+  float: left;
+  margin: 0px;
+}
+/*shoud be deleted after new ui of landing page ->*/
+#scanner_trees_landing {
+  border: 1px solid #ddd;
+  width: 410px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+#scanner-input-container-landing {
+  margin: 20px 0 20px 10px;
+}
+/* <- shoud be deleted after new ui of landing page*/
+
+

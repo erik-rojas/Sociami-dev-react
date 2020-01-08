@@ -1,0 +1,110 @@
+.popup-signup-form {
+    border-width: 1px;
+    border-color: rgb(66, 154, 222);
+    border-style: solid;
+    width: 588px;
+    height: 263px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    background: black;
+}
+.signup-form-header{
+    color: rgb(255, 197, 0);
+    padding: 20px;
+    text-align: center;
+    font: normal 24px "MyriadPro Bold";
+}
+.signup-box{
+    text-align: center;
+    width: 100%;
+}
+.signup-email{
+    display: inline-block;
+    padding: 0px 20px;
+    border: 2px solid rgb(155, 1, 170);
+    box-shadow: 0px 0px 15px 0px rgba(207, 0, 254, 0.36);
+    border-radius: 50px;
+    line-height: 36px;
+}
+.signup-email input{
+    margin: 0;
+    font: normal 12px "MyriadPro Regular";
+    color: white;
+    background: none;
+    border: 0;
+    outline: 0;
+    height: auto;
+    width: 180px;
+}
+.signup-policy-terms{
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    color: grey;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.signup-buttons{
+    padding-top: 15px;
+}
+.signup-btn{
+    background-image: -moz-linear-gradient( 90deg, rgb(50,0,55) 0%, rgb(164,0,178) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(50,0,55) 0%, rgb(164,0,178) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(50,0,55) 0%, rgb(164,0,178) 100%);
+    box-shadow: 0px 0px 15px 0px rgba(255, 0, 254, 0.44), 0px 0px 15px 0px rgba(207, 0, 254, 0.25), 0px 0px 15px 0px rgba(207, 0, 254, 0.36);
+    width: 224px;
+    height: 43px;
+    transform: skew(0deg);
+    padding: 0;
+    border-radius: 50px;
+    margin-left: 15px;
+    font: normal 16px "MyriadPro Semibold";
+    color: #fff;
+    border: 0;
+    outline: 0;
+    margin: 0px 10px;
+}
+.signup-facebook-btn,.signup-linkedin-btn{
+    width: 100%;
+    font: normal 15px "MyriadPro Bold";
+    border-radius: 0;
+}
+.signup-facebook-btn{
+    background: #3b5998;
+    color: white;
+}
+.signup-linkedin-btn{
+    background: #0077B5 !important;
+    color: white !important;
+}
+.signup-details{
+    display: inline-block;
+    padding: 0px 20px;
+    border: 2px solid rgb(155, 1, 170);
+    box-shadow: 0px 0px 15px 0px rgba(207, 0, 254, 0.36);
+    border-radius: 50px;
+    line-height: 36px;
+    margin: 0px 10px;
+}
+.signup-details input{
+    margin: 0;
+    color: white;
+    font: normal 12px "MyriadPro Regular";
+    background: none;
+    border: 0;
+    outline: 0;
+    height: auto;
+    width: 180px;
+}
+@media all and (max-width: 768px) {
+    .popup-signup-form {
+        width: 100%;
+        height: 390px !important;
+        margin-top: 20%;
+    }
+    .signup-details{
+        margin: 5px;
+    }
+}

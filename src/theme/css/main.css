@@ -1,0 +1,49 @@
+#search-query-input {
+    border-width: 1px;
+    background-color: rgb( 255, 255, 255 );
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb( 255, 255, 255 );
+    font-size: 11px;
+    font-family: "Comfortaa";
+    color: rgb( 188, 188, 188 );
+    line-height: 47px;
+  }
+
+.formSearchPage .form-group {
+    width: 100%;
+}
+
+/* html ::-webkit-scrollbar-thumb{
+    border-radius: 2px; 
+    background-color: #b6b6b6;
+    float: left;
+}
+
+html ::-webkit-scrollbar{
+    background-color: inherit;
+    width: 6px; 
+} */
+.soqqle-page-wrapper{
+    min-height: 100vh;
+}
+
+.soqqle-page-content{
+    min-height: 100vh;
+}
+
+.soqqle-content-container{
+    padding-top: 63px;
+    height: 100%;
+    min-height: 100vh;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 750px) {
+    .soqqle-content-container{
+        padding-top: 50px;
+    }
+}

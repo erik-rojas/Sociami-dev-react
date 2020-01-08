@@ -1,0 +1,326 @@
+.my-teams-container{
+    background-image: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/custom_ui/teams_background.png);
+    overflow: auto;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: "MyriadPro Semibold";
+}
+.team-header{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.my-teams-header{
+    font-size: 22px
+}
+.create-team-btn{
+    width: 220px;
+    display: inline-block;
+    background: yellow;
+    transform: skewX(-30deg);
+}
+.create-new-team{
+    background-color: #ffd400;
+    color: #000;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.unskew-create-team{
+    font-weight: 800;
+    transform: skew(30deg);
+    margin: 0;
+}
+.team-container{
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.team-list{
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    max-height: 450px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 8px 23px 0px rgba(11, 21, 29, 0.16), 0px 8px 23px 0px rgba(11, 21, 29, 0.52);
+}
+.team-title{
+    font-size: 22px;
+    font-family: "MyriadPro Bold";
+    line-height: 1.2;
+}
+.team-date{
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+}
+.team-email-container{
+    margin-top: 50px;
+    overflow-y: scroll;
+    max-height: 380px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    margin-right: -10px;
+}
+.team-email-item{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px 0px rgba(19, 19, 19, 0.1);
+    width: 100%;
+    height: 35px;
+}
+.team-email-item-accepted{
+    padding: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 6px 0px rgba(19, 19, 19, 0.1);
+    height: 35px;
+}
+.team-email{
+    float: left;
+    color: rgb(119, 119, 119);
+}
+.team-email-accepted{
+    float: left;
+    color: black;
+    font-weight: 600;
+}
+/* .team-checkmark-div{
+    float: right;
+    padding-left: 7px;
+    border-radius: 2px;
+    background-color: rgb(0, 173, 106);
+    width: 19px;
+    height: 19px;
+}
+
+.team-checkmark{
+    display:inline-block;
+    color: white;
+} */
+
+.team-checkmark:after{
+    content: '';
+    display: block;
+
+    /*Make it a small rectangle so the border will create an L-shape*/
+    width: 6px;
+    height: 10px;
+
+    /*Add a white border on the bottom and left, creating that 'L' */
+    border: solid white;
+    border-width: 0 2px 2px 0;
+
+    /*Rotate the L 45 degrees to turn it into a checkmark*/
+    transform: rotate(45deg);
+}
+.team-email-item-accepted .team-checkmark-div{
+    float: right;
+    border-radius: 2px;
+    background-color: rgb(0, 173, 106);
+    width: 19px;
+    height: 19px;
+    color: white;
+    padding-left: 7px;
+    padding-top: 3px;
+}
+.team-email-item-accepted:hover .team-checkmark-div{
+    display: none;
+    float: right;
+    background: #00B071;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.team-email-item .edit-team-email-checkbox,.team-email-item-accepted .edit-team-email-checkbox{
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: none;
+}
+.team-email-item:hover .edit-team-email-checkbox, .team-email-item-accepted:hover .edit-team-email-checkbox{
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    display: block;   
+    padding-top: 3px;
+}
+.team-add-email{
+    color: white;
+    background: #016AB4;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.team-add-email-link{
+    color: white;
+}
+.team-add-email-link:focus, a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.team-panels{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.team-headers{
+    overflow: initial;
+    padding-left: 15px;
+}
+.team-titles{
+    float: left;
+}
+.team-menu{
+    float: right;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    color: grey;
+    border: none;
+}
+#team-menu:focus {
+    outline: none;
+    border: none;
+}
+.team-email-item-accepted a,.team-email-item a{
+    display:none;
+}
+.team-email-item-accepted:hover a,.team-email-item:hover a {
+    display:block;
+}
+.team-email-item-accepted:hover{
+    background: #D9D9D9;
+    color: #827F80;
+}
+.team-email-item-accepted:hover div{
+    color: #827F80;
+    font-weight: 400;
+}
+.team-menu-group{
+    float: right;
+}
+.team-email-input{
+    width: 100%;
+}
+.team-add-email-input{
+    background: #016AB4;
+    height: 65px;
+    padding: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.team-add-email-input a{
+    color: white;
+}
+.team-email-container div:first-child {margin-top: 0px;}
+.team-email-container div:last-child {margin-bottom: 0px;}
+.email-edit-lightbox {
+    /** Position and style */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+}
+.team-email-item-editing{
+    padding: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow: auto;
+    background: #F5F5F5;
+}
+.team-email-edit-box{
+    z-index: 1000;
+    position: relative;
+    width: 100%;
+}
+.team-email-edit-input{
+    width: 100%;
+    height: 36px;
+}
+.team-email-edit-button{
+    width: 40%;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.team-email-cancel-btn{
+    color: white;
+    background: black;
+}
+.team-email-save-btn{
+    color: white;
+    background: #337ab7;
+}
+.delete-team-btn-yes{
+    border-radius: 0;
+    width: 25%;
+    margin-right: 10px;
+    background: #ffd400;
+}
+.delete-team-btn-no{
+    border-radius: 0;
+    width: 25%;
+    margin-right: 10px;
+}
+
+/*13-10-2018*/
+#questions .table th {
+    border: 1px solid rgb(6, 144, 247) !important ;
+}
+#questions .table td {
+    border: 1px solid rgb(6, 144, 247) !important ;
+}
+#questions.theme-box-right
+{
+    border: none !important;
+    box-shadow: none !important;
+    width: 895px !important;
+}
+#questions .table {
+    margin-bottom: unset !important ;
+}

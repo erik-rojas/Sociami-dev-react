@@ -1,0 +1,506 @@
+.progression-tree-skill-card{
+    padding: 0;
+    padding-right: 20px;
+}
+.ptree-yellow-bar{
+    display: inline-block;
+    margin-left: -50px;
+    background-color: rgb(255, 212, 0);
+    width: 114px;
+    height: 3px;
+}
+.progression-tree-skill-list{
+    padding: 0;
+}
+.progression-tree-skill-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.progression-tree-skill-content{
+    font-family: "MyriadPro Semibold";
+}
+.progression-tree-skill-item{
+    border-width: 1px;
+    border-color: rgb(0, 145, 250);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    width: 434px;
+    height: 292px;
+}
+.progression-tree-hero-container{
+    text-align: center;
+}
+.progression-tree-nomad-img{
+    width: 240px;
+    margin-left: -23px;
+    margin-top: -58px;
+}
+.progression-tree-innovator-img{
+    width: 185px;
+    margin-left: -8px;
+    margin-top: -18px;
+}
+.progression-tree-miner-img{
+    width: 185px;
+    margin-left: -36px;
+    margin-top: -18px;
+}
+.progression-tree-blockforce-img{
+    width: 160px;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+.progression-tree-cyberhero-img {
+    width: 240px;
+    margin-top: -30px;
+    margin-left: -40px;
+}
+.progression-tree-guardian-img {
+    width: 235px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.ptree-card-item{
+    /* height: 250px; */
+    margin-top: 30px;
+}
+.ptree-card{
+    padding: 20px;
+    /* width: 85%; */
+    /* box-shadow: 0px 11px 22px 0px rgba(10, 10, 10, 0.44),0px 11px 22px 0px rgba(10, 10, 10, 0.44),0px 11px 22px 0px rgba(10, 10, 10, 0.44); */
+    /* width: 271px; */
+    height: 270px;
+}
+.ptree-card-front{
+    height: 100%;
+    width: 100%;
+    /* padding: 20px; */
+    /* background: #EBEFF2; */
+}
+.ptree-card-back{
+    height: 100%;
+    width: 100%;  
+    /* padding: 20px;  */
+    /* background: #EBEFF2; */
+}
+.ptree-card-body{
+    /* overflow: scroll; */
+    padding: 10px 20px 0px 20px;
+    font-family: "MyriadPro Semibold";
+    /* height: 51%; */
+    font-size: 14px;
+    color: rgb(138, 139, 172);
+    line-height: 1.429;
+}
+.ptree-btn{
+    width: 48%;
+    justify-content: center;
+    height: 30px;
+    font-family: "MyriadPro Semibold";
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: "Myriad Pro";
+    background: black;
+    border-width: 2px;
+    border-style: solid;
+    opacity: 0.949;
+    width: 113px;
+    height: 40px;
+    line-height: 1.5;
+}
+.ptree-start{
+    float: left;
+    font-family: "MyriadPro Semibold";
+    border-color: rgb(1, 138, 239);
+    color: rgb(1, 138, 239);
+    background: black;
+}
+.ptree-start-task{
+    float: right;
+    font-family: "MyriadPro Semibold";
+    border-color: rgb(1, 138, 239);
+    color: rgb(1, 138, 239);
+    background: black;
+}
+.ptree-view{
+    float: right;
+    background: black;
+    font-family: "MyriadPro Semibold";
+    border-color: rgb(150, 1, 163);
+    color: rgb(208, 31, 229);
+    border-style: solid;
+}
+
+.ptree-card-heading{
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    font: normal 18px "MyriadPro";
+    color: rgb(255, 212, 0);
+    line-height: 1.389;
+}
+.ptree-btn-group{
+    padding-top: 10px;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.ptree-task-list{
+    margin: 10px 0px 0px 20px;
+    border-width: 1px;
+    border-color: rgb(255, 199, 0);
+    border-style: solid;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0px 0px 32px 0px rgba(255, 176, 0, 0.61);
+    width: 90%;
+    min-height: 198px;
+}
+.ptree-back-header{
+    /* font-size: 18px;
+    font-family: "MyriadPro Bold";
+    color: rgb(255, 212, 0);
+    text-transform: uppercase;
+    padding: 20px 15px 0px 15px;
+    float: left; */
+
+
+    font-size: 16px;
+    font-family: "MyriadPro Bold";
+    color: rgb(255, 212, 0);
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    float: left;
+}
+.pskill-banner {
+    padding: 5px 10px;
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px 0px rgba(19, 19, 19, 0.19);
+    font-size: 14px;
+    line-height: 1.286;
+    overflow: auto;
+    color: rgb(138, 139, 172);
+}
+.pskill-banner.active{
+    color: white !important;
+}
+.pskill-name{
+    font: normal 14px "MyriadPro Semibold";
+    cursor: pointer;
+    float: left;
+    width: 90%;
+}
+.ptask-banner {
+    padding: 5px 10px;
+    box-shadow: 0px 3px 6px 0px rgba(19, 19, 19, 0.19);
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+    overflow: auto;
+    color: white;
+}
+.ptask-banner.active{
+    background:rgb(30, 30, 30)
+}
+.ptask-banner.active div{
+    color: #FFD149;
+}
+.ptask-name{
+    cursor: pointer;
+    font: normal 14px "MyriadPro Bold";
+    line-height: .6 !important;
+}
+.ptask-desc{
+    /* color: #FFD149; */
+    cursor: pointer;
+    font: normal 14px "MyriadPro Bold";
+}
+.ptree-back{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.ptree-chevron{
+    font-size: 8px;
+    font-weight: 600;
+}
+.ptree-back-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.ptree-hero-img{
+    width: 285px;
+    margin-top: -71px;
+    margin-left: -63px;
+}
+.ptask-left{
+    float: left;
+    margin-top: 4px;
+    margin-bottom: -2px;
+}
+.ptask-right{
+    float: right;
+}
+.ptask-img-single{
+    width:11px;
+}
+.ptask-img-double{
+    width:26px;
+}
+.ptask-img-group{
+    width:30px;
+}
+.view-video{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.ptree-skill-set{
+    /* CHECK THIS CSS
+    margin: 10px 0px 0px 20px;
+    border-width: 1px;
+    border-color: rgb(255, 199, 0);
+    border-style: solid;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0px 0px 32px 0px rgba(255, 176, 0, 0.61);
+    width: 90%;
+    padding-left: 10px;
+    min-height: 200px;
+    overflow: auto; */
+
+    margin: 30px 0px 0px 20px;
+    border-width: 1px;
+    border-color: rgb(255, 199, 0);
+    border-style: solid;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0px 0px 32px 0px rgba(255, 176, 0, 0.61);
+    width: 90%;
+    min-height: 198px;
+    overflow: auto;
+
+}
+.ptree-skill-set-btn-group{
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+    -moz-box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+    -webkit-box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+}
+.progression-tree-timers{
+ 
+}
+.ptree-back{
+    float: left;
+    /* border: 1px solid #FFD149; */
+    background: transparent;
+    border:0;
+}
+.ptree-next{
+    float: right;
+    background: transparent;
+    border-width: 3px;
+    border-color: rgb(255, 212, 0);
+    border-style: solid;
+}
+.ptree-back:active{
+    border:1px solid #FFD149
+}
+.ptree-next:active{
+    border:1px solid #FFD149
+}
+.ptree-checkmark-div{
+    float: right;
+    padding-right: 10px;
+}
+
+.ptree-checkmark{
+    display:inline-block;
+    color: white;
+}
+
+.ptree-checkmark:after{
+    content: '';
+    display: block;
+
+    /*Make it a small rectangle so the border will create an L-shape*/
+    width: 6px;
+    height: 10px;
+
+    /*Add a white border on the bottom and left, creating that 'L' */
+    border: solid white;
+    border-width: 0 2px 2px 0;
+
+    /*Rotate the L 45 degrees to turn it into a checkmark*/
+    transform: rotate(45deg);
+}
+
+.ptree-video-lightbox{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: block;
+}
+.ptree-video-container{
+    top: 30%;
+    position: relative;
+}
+
+.ptree-lock-timer{
+    color: rgb(93, 94, 114);
+    display: inherit;
+}
+
+@media (max-width: 768px){
+    .progression-tree-skill-container{
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .progression-tree-skill-list {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .progression-tree-skill-list{
+        
+    }
+    .progression-tree-skill-card {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .progression-tree-skill-item{
+        height: auto;
+        margin:0;
+        width: auto;
+        /* border-style: solid;
+        border-width: 8px;
+        border-color: rgb(0, 145, 250);
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 30px 0px rgba(141, 211, 255, 0.76), 0px 0px 30px 0px rgba(141, 211, 255, 0.76); */
+    }
+    .ptree-card{
+        height: 280px;
+    }
+    .ptree-card-item {
+        margin-top: -30px;
+    }
+    .ptree-card-body{
+        /* height: 49%; */
+    }
+    .ptree-btn{
+        width: 100px;
+    }
+    .ptree-skill-set{
+        height: 145px;
+    }
+    .ptree-yellow-bar{
+        margin-left: -10px;
+    }
+    .ptask-name{
+        line-height: .8;
+    }
+    .pskill-banner{
+        padding: 7px;
+    }
+    .pskill-name{
+        font:normal 15px "MyriadPro Semibold";
+    }
+    .progression-tree-hero-img{
+        margin: 0 auto !important;
+        padding-bottom: 30px !important;
+    }
+    .ptree-btn-group{
+        bottom: -40px;
+    }
+}
+
+/* ====================================== */
+/* entire container, keeps perspective */
+.ptree-card-item {
+	-webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+}
+/* flip the pane when hovered */
+/* .pskill-card-item:hover .pskill-flipper, .pskill-card-item.hover .pskill-flipper { */
+.ptree-card-item.hover .ptree-card {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.ptree-card {
+	-webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.ptree-card-front, .ptree-card-back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.ptree-card-front {
+	z-index: 2;
+	/* -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg); */
+}
+
+/* back, initially hidden pane */
+.ptree-card-back {
+    z-index: 3;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+@-webkit-keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}

@@ -1,0 +1,23 @@
+image: nexusuw/node-8-python-aws-cli
+
+pipelines:
+  branches:
+    stg:
+      - step:
+          deployment: staging
+          caches:
+            - node
+          script:
+            - npm install
+            - pip install boto3
+            - npm run publish:stg
+    master:
+      - step:
+          deployment: production
+          caches:
+            - node
+          script:
+            - npm install
+            - pip install boto3
+            - npm run publish:prod
+

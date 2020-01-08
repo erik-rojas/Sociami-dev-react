@@ -1,0 +1,19 @@
+.materialize-warper.houses-wrapper {
+  font-family: 'MyriadPro';
+  background: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/houses/body-bg.jpg) right top repeat-y;
+  background-size: 100%;
+}
+.houses-wrapper .video-warp {
+  background: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/houses/before-footerbg.png) left bottom no-repeat;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
+  left: 0;
+  bottom: -54px;
+  padding-bottom: 8rem;
+}
+
+/*----------mobile--------*/
+@media (max-width:767px) {
+  .houses-wrapper .video-warp {background-size: 100% 50%;  bottom: -35px; padding-bottom: 6rem;}
+}

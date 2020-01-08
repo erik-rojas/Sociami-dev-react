@@ -1,0 +1,26 @@
+header {
+    height: 63px;
+    width: 100%;
+    background-color: rgba( 122, 204, 200, 0.8);
+}
+  
+header #soqqle_logo {
+    line-height: 63px;
+    margin-left: 25px;
+}
+  
+header #profile_link {
+    line-height: 63px;
+    margin-right: 30px;
+}
+  
+header #profile_link img {
+    margin-right: 11px;
+}
+
+header #profile_link a {
+    color: white;
+    font-size: 15px;
+    font-family: "Comfortaa";
+    line-height: 3;
+}

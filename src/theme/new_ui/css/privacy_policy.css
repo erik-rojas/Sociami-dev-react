@@ -1,0 +1,18 @@
+#privacy-policy-container {
+    width: 100%;
+    background-color: #f78b1f;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#privacy-policy-spinner-container {
+    min-height: 1000px;
+}
+
+#privacy-policy-spinner {
+    font-size: 16px;
+    font-weight: 700px;  
+    padding: 50px 0px;
+}

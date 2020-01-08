@@ -1,0 +1,440 @@
+.progression-tree-skill-card{
+    padding: 0;
+    padding-right: 20px;
+}
+.ptree-yellow-bar{
+    display: inline-block;
+    margin-left: -50px;
+    background-color: rgb(255, 212, 0);
+    width: 114px;
+    height: 3px;
+}
+.progression-tree-skill-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.progression-tree-skill-content{
+    font-family: "MyriadPro Semibold";
+}
+.progression-tree-skill-list{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.progression-tree-skill-item{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(137, 203, 253);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px 0px rgba(141, 211, 255, 0.4),0px 0px 15px 0px rgba(141, 211, 255, 0.83),0px 11px 22px 0px rgba(10, 10, 10, 0.44);
+    /* width: 561px; */
+    height: 261px;
+    border-radius: 3px;
+}
+.progression-tree-hero-container{
+    text-align: center;
+}
+.progression-tree-hero-img {
+    width: 250px;
+    margin-top: -80px;
+}
+.progression-tree-blockforce-img{
+    width: 160px;
+    margin-right: 40px;
+    margin-top: -70px;
+}
+
+
+.ptree-card-item{
+    /* height: 250px; */
+    margin-top: 30px;
+}
+.ptree-card{
+    padding: 20px;
+    /* width: 85%; */
+    box-shadow: 0px 11px 22px 0px rgba(10, 10, 10, 0.44),0px 11px 22px 0px rgba(10, 10, 10, 0.44),0px 11px 22px 0px rgba(10, 10, 10, 0.44);
+    /* width: 271px; */
+    height: 270px;
+}
+.ptree-card-front{
+    height: 100%;
+    width: 100%;
+    /* padding: 20px; */
+    background: #EBEFF2;
+}
+.ptree-card-back{
+    height: 100%;
+    width: 100%;  
+    /* padding: 20px;  */
+    background: #EBEFF2;
+}
+.ptree-card-body{
+    overflow: scroll;
+    padding: 0px 20px 0px 20px;
+    font-family: "MyriadPro Semibold";
+    height: 51%;
+}
+.ptree-btn{
+    width: 48%;
+    justify-content: center;
+    height: 30px;
+    font-family: "MyriadPro Semibold";
+}
+.ptree-start{
+    float: left;
+    font-family: "MyriadPro Semibold";
+    line-height: 1.125;
+    background-color: rgb(255, 212, 0);
+    /* box-shadow: inset 0px 3px 7px 0px rgba(226, 179, 0, 0.71); */
+    box-shadow: inset 0px 3px 7px 5px rgba(226, 179, 0, 0.71);
+    border:0;
+}
+.ptree-view{
+    float: right;
+    background: transparent;
+    font-family: "MyriadPro Semibold";
+    line-height: 1.125;
+    border-width: 2px;
+    border-color: rgb(255, 212, 0);
+    border-style: solid;
+}
+
+.ptree-card-heading{
+    text-transform: uppercase;
+    padding: 30px 20px 0px 20px;
+    font: normal 17px "MyriadPro Bold";
+}
+.ptree-btn-group{
+    /* padding-top: 10px; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+    background: #EBEFF2
+}
+.ptree-task-list{
+    padding: 0px 20px 0px 20px;
+}
+.ptree-back-header{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 15px 0px 15px;
+    line-height: 1;
+    /* font-family: "MyriadPro Semibold"; */
+}
+.pskill-banner {
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+    /* font-family: "MyriadPro Semibold"; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 6px 0px rgba(19, 19, 19, 0.19);
+    font-size: 14px;
+    line-height: 1.286;
+    overflow: auto;
+}
+.pskill-banner.active{
+    background:#006BB9;
+    color: white;
+}
+.pskill-name{
+    font: normal 14px "MyriadPro Semibold";
+    cursor: pointer;
+    float: left;
+    width: 90%;
+}
+.ptask-banner {
+    padding: 5px;
+    box-shadow: 0px 3px 6px 0px rgba(19, 19, 19, 0.19);
+    background: white;
+    margin: 5px 0px 5px 0px;
+    cursor: pointer;
+    overflow: auto;
+}
+.ptask-banner.active{
+    background:#006BB9;
+    color: white;
+}
+.ptask-banner.active div{
+    color:white;
+}
+.ptask-name{
+    cursor: pointer;
+    font: normal 14px "MyriadPro Bold";
+    line-height: .6 !important;
+}
+.ptask-desc{
+    color: #FFD149;
+    cursor: pointer;
+    font: normal 14px "MyriadPro Bold";
+}
+.ptree-back{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.ptree-chevron{
+    font-size: 8px;
+    font-weight: 600;
+}
+.ptree-back-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.ptree-hero-img{
+    width: 180px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.ptask-left{
+    float: left;
+    margin-top: 4px;
+    margin-bottom: -2px;
+}
+.ptask-right{
+    float: right;
+}
+.ptask-img-single{
+    width:11px;
+}
+.ptask-img-double{
+    width:30px;
+}
+.ptask-img-group{
+    width:30px;
+}
+.view-video{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.ptree-skill-set{
+    height: 140px;
+    overflow: auto;
+    margin-right: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.ptree-skill-set-btn-group{
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+    -moz-box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+    -webkit-box-shadow: 0.261px -2.989px 12px 0px rgba(28, 28, 28, 0.34);
+}
+.progression-tree-timers{
+ 
+}
+.ptree-back{
+    float: left;
+    /* border: 1px solid #FFD149; */
+    background: transparent;
+    border:0;
+}
+.ptree-next{
+    float: right;
+    background: transparent;
+    border-width: 3px;
+    border-color: rgb(255, 212, 0);
+    border-style: solid;
+}
+.ptree-back:active{
+    border:1px solid #FFD149
+}
+.ptree-next:active{
+    border:1px solid #FFD149
+}
+.ptree-checkmark-div{
+    float: right;
+    padding-right: 10px;
+}
+
+.ptree-checkmark{
+    display:inline-block;
+    color: white;
+}
+
+.ptree-checkmark:after{
+    content: '';
+    display: block;
+
+    /*Make it a small rectangle so the border will create an L-shape*/
+    width: 6px;
+    height: 10px;
+
+    /*Add a white border on the bottom and left, creating that 'L' */
+    border: solid white;
+    border-width: 0 2px 2px 0;
+
+    /*Rotate the L 45 degrees to turn it into a checkmark*/
+    transform: rotate(45deg);
+}
+
+.ptree-video-lightbox{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6);
+    display: block;
+}
+.ptree-video-container{
+    top: 30%;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    /* .progression-tree-panels {
+        padding-top: 50px;
+    } */
+    .progression-tree-skill-container{
+        height: 570px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .progression-tree-skill-list {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .progression-tree-skill-list{
+        height: 400px;
+    }
+    .progression-tree-skill-card {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .progression-tree-skill-item{
+        height: 420px;
+        margin:0;
+        border-style: solid;
+        border-width: 8px;
+        border-color: rgb(137, 203, 253);
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 0px 30px 0px rgba(141, 211, 255, 0.76), 0px 0px 30px 0px rgba(141, 211, 255, 0.76);
+    }
+    .ptree-card{
+        height: 280px;
+    }
+    .ptree-card-item {
+        margin-top: -30px;
+    }
+    .ptree-card-body{
+        height: 49%;
+    }
+    /* .pskill-banner{
+        padding: 8px;
+    }
+    .ptask-banner{
+        padding: 8px;
+    } */
+    .ptree-skill-set{
+        height: 145px;
+    }
+    .ptree-yellow-bar{
+        margin-left: -10px;
+    }
+    .ptask-name{
+        line-height: .8;
+    }
+    .pskill-banner{
+        padding: 7px;
+    }
+    .pskill-name{
+        font:normal 15px "MyriadPro Semibold";
+    }
+    .progression-tree-blockforce-img{
+        padding-bottom: 40px;
+    }
+}
+
+/* ====================================== */
+/* entire container, keeps perspective */
+.ptree-card-item {
+	-webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    perspective: 1000;
+}
+/* flip the pane when hovered */
+/* .pskill-card-item:hover .pskill-flipper, .pskill-card-item.hover .pskill-flipper { */
+.ptree-card-item.hover .ptree-card {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.ptree-card {
+	-webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.ptree-card-front, .ptree-card-back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.ptree-card-front {
+	z-index: 2;
+	/* -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg); */
+}
+
+/* back, initially hidden pane */
+.ptree-card-back {
+    z-index: 3;
+	-webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+@-webkit-keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   { 
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}

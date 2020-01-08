@@ -1,0 +1,271 @@
+#progression-trees-trees {
+  width: 100%;
+  margin: 0 auto;
+  /*padding-right: 15px;*/
+  overflow-x: hidden;
+}
+.scanner-expanded {
+  margin-left: 70%;
+}
+#progression-trees-scanner {
+  /*border: 1px solid rgba(36, 126, 230, 0.534);*/
+  min-height: 633px;
+  color: #4d4b4b;
+}
+
+#progression-trees-scanner ul li {
+  margin-bottom: 10px;
+  padding: 20px 25px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #d5d5d5;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+.heading-trees{
+  color: #e7403f;
+  text-transform: uppercase;
+  font-family: 'FjallaOne-Regular';
+  border-bottom: 1px solid #d5d5d5;
+  padding: 15px 0px;
+  margin: 0px 25px;
+  display: inline-block;
+}
+
+#scanner_trees {
+  background-color: white;
+  border-radius: 45px;
+}
+
+.tree-scanner-tree-name {
+  margin-right: 5px;
+}
+.tree-scaner-star-rating {
+  position: relative;
+  top: -4px;
+  /* left: 15px; */
+}
+
+.tree-scanner-tree-icons{
+  position: relative;
+  top: -5px;
+}
+
+.tree-scanner-tree-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.tree-scanner-tree-icon.glyphicon-education{
+  font-size: 22px;
+  position: relative;
+  top: 3px;
+}
+
+.content-2-columns-left-new-ui{
+  padding-left: 15px;
+}
+
+#progression-trees-scanner ul li a, 
+#progression-trees-scanner ul li a:hover, 
+#progression-trees-scanner ul li a:visited,
+#progression-trees-scanner ul li a:focus {
+  color: #4d4b4b;
+}
+
+#progression-trees-scanner ul li a:hover {
+  text-decoration: underline;
+}
+
+#progression-trees-scanner-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#progression-trees-scanner-container .content-2-columns-right-title {
+  margin-left: 15px;
+}
+
+#scanner-input-container {
+  margin: 20px 0px 20px 50px;
+}
+  
+#scanner-input-container input[type="text"] {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid white;
+  color: rgb(88, 88, 88);
+  /*border-radius: 3px;*/
+  /*background-color: transparent;*/
+  margin: 0 auto;
+}
+  
+#scanner-input-container input[type="text"]:focus {
+  outline: none;
+}
+  
+#trees-scanner-list-trees {
+  list-style: none;
+  margin-top: 20px;
+  width: 90%;
+}
+  
+#trees-scanner-list-trees li {
+  display: block;
+  margin-bottom: 60px;
+}
+  
+#trees-scanner-list-trees li:before {
+  /*Using a Bootstrap glyphicon as the bullet point*/
+  content: "\e257";
+  font-family: 'Glyphicons Halflings';
+  float: left;
+  font-size: 24px;
+  margin-left: -25px;
+  margin-top: -3px;
+  color: white;
+}
+  
+#trees-scanner-list-trees li a {
+  font-size: 18px;
+  color: white;
+}
+  
+#trees-scanner-list-trees img {
+  width: 28px;
+  height: 28px;
+}
+  
+#progression-trees .progress {
+  border: none;
+  height: 50px;
+  background-color: transparent;
+  overflow: visible; /*So percentage sup is visible*/
+  box-shadow: none;
+  margin-bottom: 30px;
+}
+  
+#progression-trees .progress .progress-bar {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+  
+#progression-trees .progress #progress-bar-text {
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+  
+#progression-trees .progress #progress-bar-text #progress-bar-roadmap-name,
+#progression-trees .progress #progress-bar-text .progress-bar-skill-name {
+  line-height: 50px;
+  display: inline;
+  margin-right: 15px;
+}
+  
+#progression-trees .progress #progress-bar-text .progress-bar-skill-name {
+  font-size: 14px;
+}
+  
+#progression-trees .progress #progress-percents-sup {
+  font-size: 14px;
+  top: -1.8em;
+}
+
+#trees-scanner-container {
+  min-height: 520px;
+  overflow-y: scroll;
+}
+
+#my-progress-list {
+  min-height: 500px;
+  /*padding-right: 30px;*/
+  padding-top: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#my-progress-list a {
+  color: white;
+}
+
+.progress-bar-skills-weightage {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.trees-wrap {
+  position: relative;
+}
+.progression-tree-my-text {
+  font-size: 18px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  color: #2fa7d2 !important;
+  font-family: FjallaOne-Regular;
+}
+.progression-tree-star-rating {
+  position: relative;
+  top: -4px;
+  left: 15px;
+}
+.progression-tree-my-descr {
+  margin-top: 15px;
+}
+.tree-bin-wrap {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#user-prog-tree-collapse {
+  position: absolute;
+  top: 1%;
+  /*bottom: 50%;*/
+  left: 1%;
+  /*right: 50%;*/
+  font-size: 32px;
+}
+
+#user-prog-tree-expand {
+  position: absolute;
+  z-index: 999;
+  top: 0.7%;
+  /*bottom: 50%;*/
+  left: 0;
+  font-size: 32px;
+  color: rgb(88, 88, 88);
+  opacity: 0.0;
+  transition: opacity 0.5s;
+}
+
+#progression-trees-scanner:hover #user-prog-tree-expand {
+  opacity: 1.0;
+  transition: opacity 0.5s;
+}
+
+.tree-scanner-tree-icons, .tree-scanner-tree-network {
+  margin-bottom: 5px;
+}
+
+.tree-scanner-tree-network{
+  text-align: right;
+}
+
+
+
+.tree-scanner-tree-footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tree-scanner-tree-locked-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #c23e3e;
+}

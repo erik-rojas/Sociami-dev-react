@@ -1,0 +1,97 @@
+.achievement-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+}
+
+.achievement-wrapper {
+  background: url('../images/bg-achievement.png');
+  position: absolute;
+  max-width: 500px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.achievement-wrapper .center-wrapper .content-wp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 35% auto 20px;
+  width: 80%;
+  color: #fff;
+  position: relative;
+  text-transform: uppercase;
+}
+.achievement-wrapper .center-wrapper .content-wp h6 {
+  font-size: 14px;
+  margin: 30px 0 5px 0;
+}
+.achievement-wrapper .center-wrapper .content-wp h4 {
+  margin: 1rem;
+  color: #0091fa;
+}
+
+.achievement-wrapper .center-wrapper .content-wp p {
+  text-transform: none;
+  text-align: center;
+  color: #a5a6c2;
+}
+.achievement-wrapper .center-wrapper .content-wp .numbering-heading {
+  color: #fdb200;
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  top: -18px;
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  .achievement-wrapper {
+    background-repeat: no-repeat;
+  }
+}
+@media (max-width: 991px) {
+  .achievement-wrapper {
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  .achievement-wrapper .center-wrapper {
+    width: 320px;
+    height: 150px;
+    background-size: 100%;
+  }
+  .achievement-wrapper .center-wrapper .content-wp {
+    width: 60%;
+    margin: 3rem 3rem 0 0;
+  }
+  .achievement-wrapper .center-wrapper .content-wp .numbering-heading {
+    font-size: 30px;
+    right: 17px;
+    top: -5px;
+  }
+  .achievement-wrapper .center-wrapper .content-wp h5 {
+    font-size: 12px;
+    margin: 27px 0 5px 0;
+  }
+  .achievement-wrapper .center-wrapper .content-wp h2 {
+    font-size: 22px;
+  }
+  .achievement-modal.modal-popup{
+    width: 270px;
+  }
+  .achievement-modal.modal-popup .achievement-container{
+    display: inline-block;
+  }
+  .achievement-modal.modal-popup .achievement-container .achievement-wrapper {
+    width: 100%;
+  }
+  .achievement-wrapper .center-wrapper .content-wp {
+    width: 83%;
+    margin: 14rem 0rem 0 0;
+    padding: 0 10px;
+  }
+}

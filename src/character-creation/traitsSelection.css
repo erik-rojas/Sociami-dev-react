@@ -1,0 +1,121 @@
+.col-cs {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 33.3333%;
+    float: left;
+}
+
+@media all and (max-width : 1089px) {
+    .col-cs {
+        width: 100%;        
+    }
+}
+.character-trait-container {
+    border: 3px solid rgb( 226, 226, 226 );
+    border-radius: 20px;
+    /* min-height: 200px; */
+    width: 100%;
+    min-height: 200px;
+
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: white;
+    font-family: "Fjalla One";
+}
+
+@media all and (max-width : 1089px) {
+    .character-trait-container {
+        min-height: 150px;
+        width: 100%;
+    }
+}
+
+#character-selection-header {
+    font-size: 24px;
+    font-family: "Fjalla One";
+    color: rgb( 221, 48, 58 );
+    margin-bottom: 20px;
+}
+
+.character-trait-container-active {
+    border: 3px solid transparent;
+    border-radius: 20px;
+    background: rgb( 47, 167, 210 ) url('http://sociamibucket.s3.amazonaws.com/assets/new_ui_gamified/assets/img/check.png') right -14px top -20px no-repeat;
+}
+
+.character-trait-container-active .charactet-trait-name, 
+.character-trait-container-active .charactet-trait-description {
+    color: white;
+}
+
+.character-trait-container-active .charactet-trait-name {
+    font-size: 24px;
+}
+
+.character-trait-container-active .charactet-trait-description {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+}
+
+.charactet-trait-name {
+    font-size: 24px;
+    font-family: "Fjalla One";
+    color: rgb( 234, 59, 22 );
+}
+
+.charactet-trait-description {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb( 33, 33, 33 );
+}
+
+#character-trait-select-confirm-button-container {
+    width: 100%;
+    background-color: #FA893B;
+    bottom: 0px ;
+    position: absolute;
+}
+
+#character-selection-next {
+    font-size: 25px;
+    font-family: "Fjalla One";
+}
+
+#character-traits-selection-container {
+    height: 100%;
+}
+
+#character-traits-selection-container-inner {
+    height: 100%;
+}
+
+.select-trait-container{
+    height: 69%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.select-trait-row{
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    width: 100%;
+}
+
+.trait-header{
+    padding: 20px 0px 20px 0px !important;
+    border-bottom: 2px solid #DBE1DF;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+@media all and (max-width: 768px) {
+    /* .select-trait-container{
+        height: 70% !important;
+    } */
+}

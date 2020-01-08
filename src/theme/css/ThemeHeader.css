@@ -1,0 +1,404 @@
+.navbar-wrapper{
+  background-color: #000;
+}
+
+.navbar-wrapper header{
+  height: 60px;
+}
+.soqqle-header{
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+}
+
+.navbar-wrapper header {
+    position: relative;
+    margin: auto;
+}
+
+.navbar-wrapper main {
+    position: relative;
+    padding: 52px 0 165px;
+    margin: 0;
+    background: #ebebeb;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper main {
+        padding: 52px 0 9px;
+    }
+}
+
+.navbar-wrapper .header {
+    position: absolute;
+    top: 0;
+    right: -90px;
+    z-index: 2;
+    padding: 0 89px 0 43px;
+    transform: skew(-37deg);
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .header {
+        right: -31px;
+        padding: 0 0px 0 10px;
+    }
+    .chat-container{
+        margin: 0 !important;
+        width: 85%;
+    }
+    .chat-holder{
+        width: 50% !important;
+    }
+}
+
+.navbar-wrapper .header .burger {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .header .burger {
+      display: inline-block;
+      padding: 10px 50px 0px 4px;
+      transform: skew(37deg);
+      margin: 2px;
+    }
+}
+
+.navbar-wrapper .header .burger span {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #8c019b;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .header .burger span {
+        width: 20px;
+    }
+}
+
+.navbar-wrapper .header .burger span:nth-of-type(2) {
+    margin: 9px 0;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .header .burger span:nth-of-type(2) {
+        margin: 3px 0;
+    }
+}
+
+.navbar-wrapper .header button {
+    margin: 15px 6px;
+    font: normal 16px "MyriadPro Regular";
+    color: #fff;
+    background: none;
+    border: 0;
+    outline: 0;
+    transform: skew(8deg);
+}
+
+.navbar-wrapper .header .navbar-button {
+    margin: 15px 6px;
+    font: normal 16px "MyriadPro Regular";
+    color: #fff;
+    background: none;
+    border: 0;
+    outline: 0;
+    transform: skew(8deg);
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .header button {
+        display: none;
+    }
+    .navbar-wrapper .header .navbar-button {
+        display: none;
+    }
+}
+
+.navbar-wrapper .header a.navbar-button {
+    padding: 7px 25px;
+    margin-left: 9px;
+    font-family: "MyriadPro Semibold";
+    background-color: rgb(0, 105, 186);
+    box-shadow: inset 0px 3px 7px 0px rgba(5, 83, 144, 0.71);
+    width: 135px;
+    height: 32px;
+}
+
+.navbar-wrapper .navbar-button .navbar-btn-name{
+    display: inline-block;
+    transform: skew(33deg);
+    color: white;
+}
+
+.navbar-wrapper .navbar-button .navbar-btn-img{
+    display: inline-block;
+    transform: skew(33deg);
+    margin-right: 8px;
+}
+
+/* .navbar-wrapper .header button p {
+    margin: 0;
+    transform: skew(33deg);
+} */
+
+.navbar-wrapper .logo {
+    position: absolute;
+    /*top: 0;*/
+    /*left: -20px;*/
+    z-index: 2;
+    /*padding: 0px 55px 10px 80px;*/
+    margin: 0;
+    /*transform: skewX(-35deg);*/
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .logo {
+        padding: 9px 35px 8px 42px; 
+    }
+}
+
+.navbar-wrapper .logo img {
+    width: 100%;
+    max-width: 140px;
+    /*transform: skew(35deg);*/
+}
+
+@media screen and (max-width: 750px) {
+    .navbar-wrapper .logo img {
+        width: 80px;
+    }
+}
+
+.navbar-wrapper .mobile-menu {
+    display: none;
+}
+
+.navbar-wrapper .mobile-menu.open {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    z-index: 999;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.navbar-wrapper .mobile-menu .close-menu {
+    float: right;
+    padding: 7px 14px;
+    margin: 0 0 18px;
+    background: none;
+    border: 0;
+}
+
+.navbar-wrapper .mobile-menu footer {
+    text-align: center;
+    display: list-item;
+}
+
+.navbar-wrapper .mobile-menu footer .navbar-btn-row{
+    transform: skew(-38deg);
+}
+
+.navbar-wrapper .header .navbar-options{
+    float: right;
+    padding-left: 25px;
+    margin: 5px 0 8px 35px;
+    font: normal 16px "MyriadPro Regular";
+    color: #fff;
+    background: none;
+    border: 0;
+    outline: 0;
+    transform: skew(37deg);
+    display: flex;
+}
+
+.navbar-wrapper .header .navbar-options li{
+    display: flex;
+    padding: 10px 6.8px;
+    align-items: center;
+}
+
+.navbar-wrapper .header .navbar-options li a i,
+.navbar-wrapper .header .navbar-options li a span{
+    color: white;
+    font-size: 25px;
+    top:0;
+}
+
+.navbar-wrapper .header .navbar-options li.navbar-icon {
+  padding-left: unset;
+}
+
+.navbar-wrapper .header .navbar-options .sub-navbar{
+    display:contents;
+}
+
+.navbar-wrapper .header .navbar-options .sub-navbar li{
+    display: table-row-group;
+    width: 100%;
+}
+
+.navbar-wrapper .header .navbar-options .notification a span{
+    font-size: 22px;
+}
+
+.navbar-wrapper .header .navbar-options .register span{
+    font-size: 22px;
+}
+
+.navbar-wrapper .header .navbar-options .user-menu i{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 750px) {
+    div#companyDropdown .notifyTitle .company-name {
+      font-size: 11pt !important;
+      margin-top: 4px;
+    }
+    .navbar-wrapper .header .navbar-options{
+        float: left;
+        padding: 0px;
+        margin: 8px 6px;
+        font: normal 16px "MyriadPro Regular";
+        color: #fff;
+        background: none;
+        border: 0;
+        outline: 0;
+        transform: skew(37deg);
+    }
+    .navbar-wrapper .header .navbar-options li{
+        padding: 6px;
+    }
+    .navbar-wrapper .header .navbar-options li a i,
+    .navbar-wrapper .header .navbar-options li a span{
+        font-size: 18px !important;
+    }
+    .navbar-wrapper .mobile-menu footer .navbar-mobile-options {
+        padding: 20px;
+        list-style-type: none;
+    }
+    .navbar-wrapper .mobile-menu footer .navbar-mobile-options a.navbar-option {
+        display: list-item;
+        color: white;
+        font: normal 20px "MyriadPro Semibold";
+        padding: 8px;
+        border-bottom: 1px solid rgb(128, 128, 128);
+        overflow: auto;
+    }
+    .navbar-wrapper .mobile-menu footer .navbar-mobile-options a.navbar-option .navbar-option-name {
+        float: left;
+        display: flex;
+    }
+    .navbar-wrapper .mobile-menu footer .navbar-mobile-options a.navbar-option i {
+        float: right;
+    }
+    .navbar-option-icon{
+        width: 20px !important;
+        margin-right: 10px !important;    
+    }  
+}
+
+
+/*@media screen and (min-width: 768px) {*/
+  /*.navbar-wrapper header{*/
+    /*width: 768px;*/
+  /*}*/
+/*}*/
+
+@media screen and (min-width: 992px) {
+  .navbar-wrapper header{
+    width: 992px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-wrapper header{
+    width: 1200px;
+  }
+}
+
+/* Mobile Menu CSS*/
+
+.navbar-wrapper .mobile-menu.dark-theme-wrapper,.navbar-wrapper .mobile-menu.light-theme-wrapper{
+  padding: unset;
+  float: unset;
+  height: 100%;
+}
+.navbar-wrapper .mobile-menu.dark-theme-wrapper .left-content{
+  background-color: rgb(0,0,0,0.6);
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 60px;
+}
+.navbar-wrapper .mobile-menu.light-theme-wrapper .left-content{
+  background-color: rgb(255,255,255,0.6);
+}
+.navbar-wrapper .mobile-menu .left-content{
+  width: 89%;
+  height: inherit;
+}
+
+.navbar-wrapper .mobile-menu.light-theme-wrapper .left-content .message-img{
+  filter: invert(100%);
+}
+
+.navbar-wrapper .mobile-menu .mobile-menu-li{
+
+}
+.navbar-wrapper .mobile-menu .mobile-menu-li a span img{
+  width: 21px;
+}
+
+.navbar-wrapper .mobile-menu .line-devider-unset{
+  margin-top: unset;
+}
+.navbar-wrapper .header .navbar-options li.nav-bar-icon-holder{
+  display: none;
+}
+@media screen and (max-width: 750px){
+  .navbar-wrapper header {
+    height: 40px;
+  }
+  .navbar-wrapper .logo{
+    padding: 0 15px 0 0;
+  }
+  .navbar-wrapper .header .navbar-options{
+    margin: 0 6px;
+  }
+  .navbar-wrapper .header .navbar-options .navbar-home,
+  .navbar-wrapper .header .navbar-options .navbar-company,
+  .navbar-wrapper .header .navbar-options .register,
+  .navbar-wrapper .header .navbar-options .user-menu
+  {
+    display: none;
+  }
+  .navbar-wrapper .header .navbar-options li.notification span{
+    color: grey;
+  }
+  .navbar-wrapper .header .navbar-options li.nav-bar-icon-holder{
+    padding: 6px 10px;
+    display: flex;
+  }
+  .navbar-wrapper .header .navbar-options li .nav-bar-icon img{
+    filter: invert(50%);
+    height: 20px;
+  }
+  .light-theme-wrapper .container .fixed-wp, .dark-theme-wrapper .container .col.fixed-wp{
+    display: none;
+  }
+  .light-theme-wrapper .container .fixed-wp, .dark-theme-wrapper .container .col.fixed-wp.achievements-left-wp{
+    display: inline-block;
+  }
+  .light-theme-wrapper .container .pull-right, .dark-theme-wrapper .container .col.pull-right{
+    display: none;
+  }
+  .soqqle-page-content .light-theme-wrapper,.soqqle-page-content .dark-theme-wrapper{
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,195 @@
+#tasks-management-my-tasks {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#tasks-management-my-tasks .tasks-management-my-task {
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Comfortaa";
+    margin-bottom: 20px;
+}
+
+#tasks-management-my-tasks .tasks-management-my-task:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+#tasks-management-my-tasks .tasks-management-my-task img {
+    float: left;
+}
+
+#my-tasks-container {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#tasks-scanner-list-container ul {
+    padding: 0;
+}
+
+#my-tasks-container ul li {
+    overflow: hidden;
+}
+
+#tasks-loading-spinner {
+    text-align: center;
+    font-size: 60px;
+}
+
+#tasks-scanner-list-container {
+    height: 350px;
+}
+
+#tasks-scanner-list-tasks {
+    list-style: none;
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+    
+#tasks-scanner-list-tasks li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#tasks-scanner-list-tasks li a {
+    font-size: 18px;
+    color: white;
+  }
+
+  .hangout-text {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+.subtask {
+    width: 95%;
+    margin: 0 auto;
+    min-height: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+    color: rgb(161, 158, 158);
+}
+
+#subtasks {
+    margin-top: 50px;
+}
+
+#tasks-scanner-container {
+    margin: 0 auto;
+}
+
+#tasks-scanner-container #tasks-scanner-description {
+    font-size: 14px;
+    font-family: "Comfortaa";
+    color: rgb( 92, 91, 91 );
+    line-height: 2.143;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+     padding-top: 20px; /*Michael for landing*/
+}
+
+.col-lg-3 #tasks-scanner-container-bg {
+    border-radius: 3px;
+    background-color: rgba( 255, 255, 255, 0.2);
+    min-height: 500px;
+}
+  
+#tasks-scanner-container .content-2-columns-right-title {
+    margin-left: 15px;
+}
+
+#tasks-scanner-container #scanner-input-container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid rgb( 92, 91, 91 );
+    border-radius: 15px;
+}
+
+#tasks-scanner-container #scanner-input-container input[type="text"] {
+    font-size: 18px; /*Michael for landing*/
+    border-radius: 15px;
+}
+
+#my-hangouts {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tasks-scanner-task-locked-icon {
+    font-size: 18px;
+    color: #b36c6c;
+}
+
+#tasks-scanner-expand {
+    position: absolute;
+    z-index: 999;
+    top: 120px;
+    left: 0;
+    font-size: 32px;
+    color: rgb(94, 140, 228);
+    opacity: 0.0;
+    transition: opacity 0.5s;
+}
+
+#tasks-scanner-container:hover #tasks-scanner-expand {
+    opacity: 1.0;
+    transition: opacity 0.5s;
+}
+
+.task-scanner-task-expanded {
+    border-radius: 2px;
+    background-color: rgb( 255, 255, 255 );
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 125px;
+}
+
+.task-scanner-task-expanded .hangout-text-expanded {
+    font-size: 10px;
+    font-family: "Comfortaa";
+    color: rgb( 92, 91, 91 );
+}
+
+.task-scanner-task-expanded .hangout-text-expanded .hangout-text-expanded-creator {
+    text-decoration: underline;
+}
+
+.task-scanner-task-expanded .hangout-text-expanded .hangout-text-expanded-task-reward {
+    color: rgb(197, 197, 197);
+}
+
+.task-scanner-task-expanded .hangout-text-expanded .hangout-text-expanded-creator-detailed {
+    color: rgb(181, 197, 234);
+}
+
+.task-scanner-task-expanded .hangout-expanded-accept-button-container {
+    width: 100%;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.task-scanner-task-expanded .hangout-expanded-accept-button {
+    color: rgb(255, 255, 255);
+    background: rgb(241, 118, 64); /* Old browsers */
+    padding: 5px;
+}
+
+#tasks-scanner-container .content-2-columns-right-title {
+    color: rgb( 92, 91, 91 );
+}

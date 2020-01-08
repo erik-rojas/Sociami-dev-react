@@ -1,0 +1,236 @@
+.materialize-warper.select-trait-wrapper {
+  font-family: 'MyriadPro';
+  background-size: cover;
+  position: relative;
+  background-image: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/character-creation-background.png);
+  min-height: 860px;
+  margin-bottom: -55px;
+}
+
+@media screen and (max-width: 750px) {
+  .materialize-warper.select-trait-wrapper{
+    min-height: 800px;
+    margin-bottom: -51px;
+  }
+}
+
+.select-trait-wrapper .traits-wrapper{
+  width: 100%;
+  padding: 0;
+}
+
+.select-trait-wrapper .hover-image{
+  display: none;
+}
+
+.trait-card-container{
+  padding: 10px;
+  overflow: visible;
+}
+
+.select-trait-wrapper div.trait-card {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  box-shadow: 4px 5px 10px 3px rgba(14, 31, 48, 0.76);
+  box-sizing: border-box;
+  height: 250px;
+  width: 100%;
+  cursor: url('https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/cursor.png'), auto;
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper div.trait-card{
+    padding: 10px;
+    height: 155px;
+  }
+
+  /* .select-trait-wrapper div.trait-card:nth-of-type(even) {
+    margin: 0 0 12px 15px;
+  } */
+}
+
+.select-trait-wrapper div.trait-card img{
+  height: 64px;
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper div.trait-card img{
+    height: 38px;
+  }
+}
+
+/* .select-trait-wrapper div.trait-card:hover{
+  color: white;
+  cursor: url('https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/cursor.png'), auto;
+  background: #1a6fc8;
+  transform: scale(1.15);
+}
+
+.select-trait-wrapper div.trait-card:hover img{
+  display: none;
+}
+
+.select-trait-wrapper div.trait-card:hover .hover-image{
+  display: inline;
+} */
+
+.select-trait-wrapper div.trait-card.active{
+  color: white;
+  cursor: url('https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/cursor.png'), auto;
+  background: #1a6fc8;
+  transform: scale(1.15);
+}
+
+.select-trait-wrapper div.trait-card.active img{
+  display: none;
+}
+
+.select-trait-wrapper div.trait-card.active .hover-image{
+  display: inline;
+}
+
+.select-trait-wrapper h3{
+    font: normal 17px "MyriadPro Bold";
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper h3{
+    max-width: 130px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+}
+
+.select-trait-wrapper p{
+  margin: 16px 0 8px;
+  font: normal 15px "MyriadPro Regular";
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper p{
+    /* max-width: 130px; */
+    margin: 4px 0 8px;
+    font-size: 13px;
+    line-height: 12.8px;
+  }
+
+  .select-trait-wrapper p br {
+    display: none;
+  }
+}
+
+.select-trait-wrapper .title-desktop {
+    background: url('https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/characterCreation/step-title.png') no-repeat;
+    margin-left: 17%;
+}
+
+.select-trait-wrapper .title-desktop span {
+  display: inline-block;
+  width: 222px;
+  font: normal 18px "MyriadPro Bold";
+  color: rgba(254, 254, 254, 0.21);
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.select-trait-wrapper .title-desktop span.active {
+  width: 295px;
+  margin-left: 40px;
+  color: white;
+  text-align: left;
+}
+
+.select-trait-wrapper .title-desktop span:last-of-type {
+  width: 240px;
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper .title-desktop{
+    display: none;
+  }
+
+  .select-trait-wrapper p br {
+    display: none;
+  }
+}
+
+.select-trait-wrapper .title-mobile {
+  display: none;
+  margin-left: 3%;
+}
+
+.select-trait-wrapper .title-mobile span {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  font: normal 13px "MyriadPro Bold";
+  color: rgba(254, 254, 254, 0.21);
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+.select-trait-wrapper .title-mobile span.active {
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper .title-mobile {
+    display: block;
+  }
+}
+
+.select-trait-wrapper > img{
+  width: 100%;
+  min-height: 861px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .select-trait-wrapper > img{
+    min-height: 780px;
+    object-position: 65%;
+  }
+}
+
+.trait-button-wrapper{
+  text-align: center;
+}
+
+.trait-button-wrapper button{
+  display: inline-block;
+  padding: 5px 50px;
+  margin: 20px 10px 0px 10px !important;
+  font: normal 20px "MyriadPro Semibold";
+  color: black;
+  transform: skew(-38deg);
+}
+
+.trait-button-wrapper button.next-button{
+  background-color: gold;
+  box-shadow: 0px 11px 18px 0px rgba(14, 31, 48, 0.4), inset 0px 3px 7px 0px rgba(206, 174, 18, 0.71);
+}
+
+.trait-button-wrapper p{
+  margin: 0;
+  font: normal 18px "MyriadPro Bold";
+  transform: skew(38deg);
+}
+
+@media screen and (max-width: 750px) {
+  .trait-button-wrapper{
+      
+  }
+  .trait-button-wrapper button{
+
+  }
+  .trait-button-wrapper button.next-button{
+  
+  }
+  .trait-button-wrapper p{
+    font-size: 13px;
+  }
+}

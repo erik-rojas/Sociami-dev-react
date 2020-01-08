@@ -1,0 +1,70 @@
+.latest-task-tile {
+  max-height: 300px;
+  min-height: 300px;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.latest-task-tile:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.progression-tree-container{
+  background-image: url(https://s3.us-east-2.amazonaws.com/sociamibucket/assets/images/homepage/homepage_background.jpg);
+  overflow: auto;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: "MyriadPro Regular";
+  
+}
+.progression-tree-header-box{
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  line-height: 0.75;
+  font-family: "MyriadPro Semibold";
+  padding-bottom: 30px;
+}
+.progression-tree-header{
+  font-size: 34px;
+  line-height: 1.6;
+}
+.progression-tree-clock{
+  border-width: 1px;
+  border-color: rgb(137, 203, 253);
+  border-style: solid;
+  background-color: rgb(1, 1, 1);
+  box-shadow: 0px 0px 6px 0px rgba(197, 232, 255, 0.44);
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  line-height: 1.286;
+  font-size: 14px;
+  color:rgb(255, 212, 0)
+}
+.show-more-option{
+  color: rgb(208, 31, 229);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+@media (max-width: 768px){
+  .progression-tree-header{
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,8 @@
+#questions-list {
+    overflow-y: auto;
+    height: 550px;
+}
+
+#questions-list .question-text-area {
+    height: 150px;
+}

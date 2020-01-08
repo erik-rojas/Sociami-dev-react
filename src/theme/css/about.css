@@ -1,0 +1,22 @@
+#about-page {
+    height: 633px;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+}
+
+#about-page #aboutVideo {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#about-page #aboutVideo iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#about-page .fa-huge-icon {
+    font-size: 60px;
+}

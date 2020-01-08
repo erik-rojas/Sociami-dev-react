@@ -1,0 +1,143 @@
+#sidebar-left {
+  padding-top: 20px;
+  overflow-x: hidden;
+}
+  
+#sidebar-left #list-friends {
+  height: 600px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 87%;
+}
+  
+#sidebar-left #user-status-widget {
+  margin: 0 auto;
+  max-width: 95%;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+  
+#sidebar-left #user-status-widget #status-input-container {
+  margin: 0 auto;
+  width: 90%;
+}
+  
+.user-widget {
+  margin-bottom: 20px;
+}
+  
+#sidebar-left .user-widget {
+  margin: 0 auto;
+  max-width: 87%;
+}
+  
+.user-widget img {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+  
+.user-widget #user-text {
+  padding-top: 5px;
+  width:200px;
+}
+  
+.friend-widget {
+  padding-bottom: 20px;
+  height: 75px;
+}
+  
+.friend-widget img {
+  float: left;
+  margin-right: 10px;
+  width: 55px;
+  height: 55px;
+}
+  
+.friend-widget #user-text {
+  padding-top: 5px;
+  padding-left: 20px;
+  width:180px;
+}
+  
+.friends-widget-text {
+  float: left;
+  margin-left: 20px;
+}
+
+#sidebar-left {
+  border-radius: 3px;
+  background-color: rgb( 246, 246, 246 );
+  color: #2e2b2b;
+}
+  
+#user-status-widget .friends-widget-text {
+  margin-bottom: 20px;
+  font-size: 11px;
+  font-family: "Comfortaa";
+  color: rgb( 161, 158, 158 );
+  line-height: 1.364;
+}
+  
+#sidebar-left #user-status-widget #status-input-container #status-input {
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+  
+/*User widget*/
+.user-widget #user-text {
+  font-size: 11px;
+  font-family: "Comfortaa";
+  color: rgb(161, 158, 158);
+  line-height: 1.364;
+}
+  
+.user-widget img, .friend-widget img {
+  border-radius: 50%;
+}
+  
+.user-widget #user-text .user-text-name{
+  font-size: 15px;
+  font-family: "Comfortaa";
+  color: rgb(161, 158, 158);
+  line-height: 1.364;
+}
+  
+/*Friend widget*/
+.friend-widget #user-text {
+  font-size: 11px;
+  font-family: "Comfortaa";
+  color: rgb(161, 158, 158);
+  line-height: 1.364;
+}
+
+.friend-widget #user-text .user-text-name{
+  font-size: 15px;
+  font-family: "Comfortaa";
+  color: rgb(161, 158, 158);
+  line-height: 1.364;
+}
+
+#sidebar-left #user-status-widget hr {
+  clear: both;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(54, 50, 50, 0), rgba(177, 177, 177, 0.75), rgba(168, 161, 161, 0));
+}
+
+.friend-news-feed-text {
+  color: rgb( 128, 163, 235 );
+}
+
+#user-rating {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  font-size: 15px;
+  font-family: "Comfortaa";
+  color: rgb(60, 200, 224);
+}

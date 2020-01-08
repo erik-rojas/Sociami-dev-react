@@ -1,0 +1,101 @@
+.popup-hangout-qustions {
+    padding: 10px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255); /* Old browsers */
+    height: 100%;
+  }
+
+.popup-hangout-qustions img {
+    max-width: 50%;
+}
+  
+.popup-hangout-qustions .glyphicon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.popup-hangout-qustions #questions-list textarea {
+    resize: none;
+    background: white;
+    border-radius: 1px;
+}
+  
+.checkbox {
+    font-weight: normal;
+}
+
+.popup-hangout-title {
+    font-size: 14px;
+    color: rgba(59, 197, 186, 0.75);
+}
+
+.popup-questions-loading-text {
+    margin-top: 20px;
+    color: rgba(59, 197, 186, 0.75);
+}
+
+.popup-close-icon {
+    color: grey;
+    font-size: 18px;
+    z-index: 999;
+}
+
+.popup-hangout-answers-button-container {
+    margin-top: 15px;
+}
+
+.popup-hangout-answers-button-container button {
+    background: rgb(59, 197, 186);
+    border: 1px solid rgb(59, 197, 186);
+    border-radius: 15px;
+    color: white;
+    margin-right: 30px;
+}
+
+.popup-hangout-qustions .question-name {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popup-hangout-qustions ::-webkit-input-placeholder {
+    text-align: center;
+    font-size: 28px;
+    line-height: 110px;
+    text-transform: uppercase;
+    color: rgba(119, 114, 114, 0.356);
+}
+.popup-hangout-qustions :-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+    font-size: 30px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: rgba(119, 114, 114, 0.356);
+}
+.popup-hangout-qustions ::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+    font-size: 30px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: rgba(119, 114, 114, 0.356);
+}
+.popup-hangout-qustions :-ms-input-placeholder {
+    text-align: center;
+    font-size: 30px;
+    line-height: 115px;
+    text-transform: uppercase;
+    color: rgba(119, 114, 114, 0.356);
+}
+
+.popup-hangout-qustions #questions-list {
+    overflow-y: auto;
+    height: 580px;
+}
+
+.popup-hangout-qustions #questions-list .question-text-area {
+    height: 130px;
+}
