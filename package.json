@@ -82,7 +82,7 @@
     "i18next-browser-languagedetector": "^2.2.3",
     "imagemin-webpack-plugin": "^2.3.0",
     "linkifyjs": "^2.1.6",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.13",
     "moment": "^2.22.0",
     "nl2br": "^0.0.3",
     "object-hash": "^1.2.0",
