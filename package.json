@@ -83,7 +83,7 @@
     "imagemin-webpack-plugin": "^2.3.0",
     "linkifyjs": "^2.1.6",
     "lodash": "^4.17.5",
-    "moment": "^2.22.0",
+    "moment": "^2.29.4",
     "nl2br": "^0.0.3",
     "object-hash": "^1.2.0",
     "prop-types": "^15.6.0",
